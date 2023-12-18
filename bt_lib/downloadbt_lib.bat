@@ -1,0 +1,1 @@
+copy bt_libbin\Debug\*.a  ..\cpu\br28\liba

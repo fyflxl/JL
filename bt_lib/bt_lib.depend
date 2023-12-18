@@ -1,0 +1,3606 @@
+# depslib dependency file v1.0
+1688439217 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\bt\bt_ble.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_task.h"
+	"btstack/btstack_task.h"
+	"user_cfg.h"
+	"vm.h"
+	"app_power_manage.h"
+	"btcontroller_modules.h"
+	"app_chargestore.h"
+	"btstack/avctp_user.h"
+	"bt_common.h"
+	"le_common.h"
+	"bt_ble.h"
+	"debug.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\app_core.h
+	"typedef.h"
+	"generic/list.h"
+	"system/event.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\typedef.h
+	"asm/cpu.h"
+	"generic/errno-base.h"
+	"string.h"
+	"strings.h"
+	"system/malloc.h"
+
+1691136274 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\cpu.h
+	"br28.h"
+	"csfr.h"
+	"cache.h"
+	"asm/irq.h"
+	"generic/printf.h"
+	"system/generic/log.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\br28.h
+	"io_omap.h"
+	"io_imap.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\io_omap.h
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\io_imap.h
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\csfr.h
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\cache.h
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\irq.h
+	"asm/hwi.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\hwi.h
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\printf.h
+	<stdarg.h>
+	"typedef.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\log.h
+	"system/generic/printf.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\errno-base.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\malloc.h
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\list.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\event.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/rect.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\rect.h
+	"typedef.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\includes.h
+	"init.h"
+	"event.h"
+	"malloc.h"
+	"spinlock.h"
+	"task.h"
+	"timer.h"
+	"wait.h"
+	"app_core.h"
+	"app_msg.h"
+	"database.h"
+	"fs/fs.h"
+	"power_manage.h"
+	"syscfg_id.h"
+	"bank_switch.h"
+	"generic/includes.h"
+	"device/includes.h"
+	"asm/includes.h"
+	"device/sdio_host_init.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\init.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\spinlock.h
+	"typedef.h"
+	"cpu.h"
+	"irq.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\cpu.h
+	<asm/cpu.h>
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\irq.h
+	"asm/irq.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\task.h
+	"os/os_api.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\os_api.h
+	"generic/typedef.h"
+	"os/os_cpu.h"
+	"os/os_error.h"
+	"os/os_type.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\os_cpu.h
+	"asm/cpu.h"
+	"jiffies.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\jiffies.h
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\os_error.h
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\os_type.h
+	<os/ucos_ii.h>
+	"FreeRTOS/FreeRTOS.h"
+	"FreeRTOS/semphr.h"
+	"FreeRTOS/task.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\ucos_ii.h
+	"generic/typedef.h"
+	"os/os_cpu.h"
+	"os/os_cfg.h"
+	"os/os_api.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\os_cfg.h
+	"os/os_cpu.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\freertos\freertos.h
+	"FreeRTOSConfig.h"
+	"projdefs.h"
+	"portable.h"
+	<reent.h>
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\freertos\freertosconfig.h
+	"printf.h"
+	"pi32v2/portmacro.h"
+	"pi32_lto/portmacro.h"
+	"q32s/portmacro.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\freertos\pi32v2\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\freertos\pi32_lto\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\freertos\q32s\portmacro.h
+	"asm/cpu.h"
+	<stdint.h>
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\freertos\projdefs.h
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\freertos\portable.h
+	"deprecated_definitions.h"
+	"portmacro.h"
+	"mpu_wrappers.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\freertos\deprecated_definitions.h
+	"..\..\Source\portable\owatcom\16bitdos\pc\portmacro.h"
+	"..\..\Source\portable\owatcom\16bitdos\flsh186\portmacro.h"
+	"../portable/GCC/ATMega323/portmacro.h"
+	"../portable/IAR/ATMega323/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC24_dsPIC/portmacro.h"
+	"../../Source/portable/MPLAB/PIC18F/portmacro.h"
+	"../../Source/portable/MPLAB/PIC32MX/portmacro.h"
+	"libFreeRTOS/Include/portmacro.h"
+	"../../Source/portable/SDCC/Cygnal/portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC2000/portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/GCC/ARM7_LPC23xx/portmacro.h"
+	"..\..\Source\portable\IAR\MSP430\portmacro.h"
+	"../../Source/portable/GCC/MSP430F449/portmacro.h"
+	"../../Source/portable/Rowley/MSP430F449/portmacro.h"
+	"..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91SAM7S/portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM7S64\portmacro.h"
+	"..\..\Source\portable\IAR\AtmelSAM9XE\portmacro.h"
+	"..\..\Source\portable\IAR\LPC2000\portmacro.h"
+	"..\..\Source\portable\IAR\STR71x\portmacro.h"
+	"..\..\Source\portable\IAR\STR75x\portmacro.h"
+	"..\..\Source\portable\GCC\STR75x\portmacro.h"
+	"..\..\Source\portable\IAR\STR91x\portmacro.h"
+	"../../Source/portable/GCC/H8S2329/portmacro.h"
+	"../../Source/portable/GCC/ARM7_AT91FR40008/portmacro.h"
+	"../../Source/portable/RVDS/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/GCC/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/IAR/ARM_CM3/portmacro.h"
+	"../../Source/portable/CodeWarrior/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MicroBlaze/portmacro.h"
+	"..\..\Source\portable\Paradigm\Tern_EE\small\portmacro.h"
+	"../../Source/portable/GCC/HCS12/portmacro.h"
+	"../../Source/portable/GCC/MCF5235/portmacro.h"
+	"../../../Source/portable/GCC/ColdFire_V2/portmacro.h"
+	"../../Source/portable/CodeWarrior/ColdFire_V2/portmacro.h"
+	"../../Source/portable/GCC/PPC405_Xilinx/portmacro.h"
+	"../../Source/portable/GCC/PPC440_Xilinx/portmacro.h"
+	"..\..\Source\portable\Softune\MB96340\portmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\PC\prtmacro.h"
+	"frconfig.h"
+	"..\portable\BCC\16BitDOS\flsh186\prtmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/V850ES/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+	"../../Source/portable/IAR/78K0R/portmacro.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\freertos\mpu_wrappers.h
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\freertos\semphr.h
+	"queue.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\freertos\queue.h
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\freertos\task.h
+	"list.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\os\freertos\list.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\timer.h
+	"typedef.h"
+	"generic/list.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\wait.h
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\app_msg.h
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\database.h
+	"typedef.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\fs\fs.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"generic/atomic.h"
+	"system/task.h"
+	"system/malloc.h"
+	"system/sys_time.h"
+	"stdarg.h"
+	"fs_file_name.h"
+	"sdfile.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\ioctl.h
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\atomic.h
+	"cpu.h"
+	"irq.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\sys_time.h
+	"typedef.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\fs\fs_file_name.h
+	"generic/typedef.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\fs\sdfile.h
+	"typedef.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\power_manage.h
+	"generic/typedef.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\syscfg_id.h
+	"typedef.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\bank_switch.h
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\includes.h
+	"errno-base.h"
+	"typedef.h"
+	"ascii.h"
+	"atomic.h"
+	"ioctl.h"
+	"cpu.h"
+	"gpio.h"
+	"irq.h"
+	"jiffies.h"
+	"list.h"
+	"printf.h"
+	"rect.h"
+	"version.h"
+	"lbuf.h"
+	"lbuf_lite.h"
+	"circular_buf.h"
+	"index.h"
+	"debug_lite.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\ascii.h
+	"typedef.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\gpio.h
+	"asm/gpio.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\gpio.h
+	"typedef.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\version.h
+	"typedef.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\lbuf.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\lbuf_lite.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\circular_buf.h
+	"typedef.h"
+	"system/spinlock.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\index.h
+	"typedef.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\generic\debug_lite.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\device\includes.h
+	"device.h"
+	"ioctl_cmds.h"
+	"key_driver.h"
+	"iokey.h"
+	"irkey.h"
+	"adkey.h"
+	"slidekey.h"
+	"touch_key.h"
+	"rdec_key.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\device\device.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/atomic.h"
+	"device/ioctl_cmds.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\device\ioctl_cmds.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\device\key_driver.h
+	"typedef.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\device\iokey.h
+	"typedef.h"
+	"device/device.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\device\irkey.h
+	"typedef.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\device\adkey.h
+	"typedef.h"
+	"asm/adc_api.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\adc_api.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\device\slidekey.h
+	"typedef.h"
+	"device/device.h"
+	"asm/adc_api.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\device\touch_key.h
+	"typedef.h"
+	"asm/plcnt.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\plcnt.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\device\rdec_key.h
+	"typedef.h"
+	"asm/rdec.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\rdec.h
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\includes.h
+	"asm/cpu.h"
+	"asm/crc16.h"
+	"asm/clock.h"
+	"asm/uart.h"
+	"asm/uart_dev.h"
+	"asm/gpio.h"
+	"asm/spiflash.h"
+	"asm/csfr.h"
+	"asm/power_interface.h"
+	"asm/efuse.h"
+	"asm/wdt.h"
+	"asm/debug.h"
+	"asm/timer.h"
+	"asm/rtc.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\crc16.h
+	"typedef.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\clock.h
+	"typedef.h"
+	"clock_hw.h"
+	"asm/clock_define.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\clock_hw.h
+	"typedef.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\clock_define.h
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\uart.h
+	"device/uart.h"
+	"device/device.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\device\uart.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/task.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\uart_dev.h
+	"typedef.h"
+	"os/os_api.h"
+	"jiffies.h"
+	"irq.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\spiflash.h
+	"device/device.h"
+	"device/spiflash.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\device\spiflash.h
+	"typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"device/device.h"
+	"system/task.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\power_interface.h
+	"generic/typedef.h"
+	"asm/power/p33.h"
+	"asm/power/p11.h"
+	"asm/power/power_api.h"
+	"asm/power/power_port.h"
+	"asm/power/power_wakeup.h"
+	"asm/power/power_reset.h"
+	"asm/power/power_compat.h"
+	"asm/power/lp_ipc.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\power\p33.h
+	"p33_sfr.h"
+	"p33_app.h"
+	"p33_io_app.h"
+	"rtc_app.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\power\p33_sfr.h
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\power\p33_app.h
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\power\p33_io_app.h
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\power\rtc_app.h
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\power\p11.h
+	"p11_csfr.h"
+	"p11_sfr.h"
+	"p11_app.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\power\p11_csfr.h
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\power\p11_sfr.h
+	"p11_io_omap.h"
+	"p11_io_imap.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\power\p11_io_omap.h
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\power\p11_io_imap.h
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\power\p11_app.h
+	"p11.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\power\power_api.h
+
+1691205945 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\power\power_port.h
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\power\power_wakeup.h
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\power\power_reset.h
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\power\power_compat.h
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\power\lp_ipc.h
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\efuse.h
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\wdt.h
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\debug.h
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\timer.h
+	"typedef.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\rtc.h
+	"typedef.h"
+	"system/sys_time.h"
+	"rtc_calculate.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\device\rtc_calculate.h
+	"typedef.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\device\sdio_host_init.h
+
+1669876547 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\app_config.h
+	"asm/clock_define.h"
+	"rcsp_define.h"
+	"board_config.h"
+	"btcontroller_mode.h"
+	"user_cfg_id.h"
+	"rcsp_cfg.h"
+	"usb_common_def.h"
+	"macro_default.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_define.h
+
+1680600134 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\board_config.h
+	"media/audio_def.h"
+	"board_demo_cfg.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\audio_def.h
+
+1693473533 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\board_demo_cfg.h
+	"board_demo_global_build_cfg.h"
+	"usb_std_class_def.h"
+	"usb_std_class_def.h"
+
+1680598786 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\board_demo_global_build_cfg.h
+
+1669876550 d:\jl\jl701n_soundbox\qlsdk\apps\common\device\usb\usb_std_class_def.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\btctrler\btcontroller_mode.h
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\user_cfg_id.h
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_cfg.h
+	"rcsp_define.h"
+
+1669876550 d:\jl\jl701n_soundbox\qlsdk\apps\common\device\usb\usb_common_def.h
+
+1689071406 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\macro_default.h
+	"usb_std_class_def.h"
+	"usb_common_def.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\app_task.h
+	"system/task.h"
+	"app_msg.h"
+	"system/event.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\btstack_task.h
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\user_cfg.h
+	"typedef.h"
+	"app_config.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\device\vm.h
+	"ioctl.h"
+	"device/device.h"
+
+1669876547 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\app_power_manage.h
+	"typedef.h"
+	"system/event.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\btctrler\btcontroller_modules.h
+	"hci_transport.h"
+	"btcontroller_mode.h"
+	"ble/hci_ll.h"
+	"classic/hci_lmp.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\btctrler\hci_transport.h
+	"generic/typedef.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\btctrler\ble\hci_ll.h
+	<stdint.h>
+	<stdlib.h>
+	<stdarg.h>
+	"typedef.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\btctrler\classic\hci_lmp.h
+
+1669876547 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\app_chargestore.h
+	"typedef.h"
+	"system/event.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\avctp_user.h
+	"typedef.h"
+	"btstack_typedef.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\btstack_typedef.h
+	"typedef.h"
+
+1669876557 d:\jl\jl701n_soundbox\qlsdk\apps\common\include\bt_common.h
+	<stdint.h>
+	"app_config.h"
+	"lib_profile_cfg.h"
+	"bt_profile_cfg.h"
+
+1688461668 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\bt_profile_cfg.h
+	"app_config.h"
+	"btcontroller_modules.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\le_common.h
+	"typedef.h"
+	<stdint.h>
+	"btstack/bluetooth.h"
+	"app_config.h"
+	"btstack/le/le_common_define.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\bluetooth.h
+	"typedef.h"
+	"le/ble_data_types.h"
+	"le/ble_api.h"
+	"le/le_user.h"
+	"le/att.h"
+	"le/gatt.h"
+	"le/sm.h"
+	"btstack_event.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\le\ble_data_types.h
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\le\ble_api.h
+	"typedef.h"
+	"btstack/btstack_typedef.h"
+
+1688523272 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\le\le_user.h
+	"typedef.h"
+	"btstack/btstack_typedef.h"
+	"ble_api.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\le\att.h
+	"typedef.h"
+	"btstack/btstack_typedef.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\le\gatt.h
+	"typedef.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\le\sm.h
+	"typedef.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\btstack_event.h
+	"btstack/btstack_typedef.h"
+	<stdint.h>
+	"le/gatt.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\le\le_common_define.h
+	"typedef.h"
+	<stdint.h>
+	"btstack/bluetooth.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\bt_ble.h
+	"typedef.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\debug.h
+	"asm/cpu.h"
+	"generic/typedef.h"
+
+1688632265 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\bt\bt_emitter.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_task.h"
+	"btstack/btstack_task.h"
+	"btcontroller_modules.h"
+	"btstack/avctp_user.h"
+	"classic/hci_lmp.h"
+	"bt.h"
+	"bt_emitter.h"
+	"user_cfg.h"
+	"vm.h"
+	"app_main.h"
+	"common/app_common.h"
+	"key_event_deal.h"
+	"media/includes.h"
+	"audio_config.h"
+	"audio_digital_vol.h"
+	"audio_enc.h"
+	"audio_enc/audio_sbc_codec.h"
+	"media/file_decoder.h"
+	"music/music_player.h"
+	"bt_vartual_fast_connect.h"
+	"debug.h"
+	"audio_dec.h"
+	"clock_cfg.h"
+	"media/pcm_decoder.h"
+	"audio_common/audio_iis.h"
+	"Resample_api.h"
+
+1688632291 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\bt.h
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\bt_emitter.h
+
+1691154209 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\app_main.h
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\common\app_common.h
+	"typedef.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\key_event_deal.h
+	"typedef.h"
+	"system/event.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\includes.h
+	"media/audio_decoder.h"
+	"media/audio_encoder.h"
+	"media/mixer.h"
+	"media/automute.h"
+	"media/audio_stream.h"
+	"effectrs_sync.h"
+	"audio_resample.h"
+	"asm/cpu_includes.h"
+	"media/eq_func_define.h"
+	"asm/dac.h"
+	"asm/audio_adc.h"
+	"asm/audio_src.h"
+	"asm/audio_spdif.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\audio_decoder.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"media/audio_base.h"
+	"media/audio_stream.h"
+	"os/os_api.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\audio_base.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\audio_stream.h
+	"generic/includes.h"
+	"media/audio_base.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\audio_encoder.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/circular_buf.h"
+	"media/audio_base.h"
+	"os/os_api.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\mixer.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"media/audio_stream.h"
+	"application/audio_buf_sync.h"
+	"mixer_cyclic.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\audio_buf_sync.h
+	"asm/includes.h"
+	"generic/includes.h"
+	"system/includes.h"
+	"asm/cpu_includes.h"
+	"asm/audio_src.h"
+	"media/audio_decoder.h"
+	"media/audio_encoder.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\cpu\br28\asm\cpu_includes.h
+	"asm/audio_adc.h"
+	"asm/audio_linein.h"
+	"asm/audio_src.h"
+	"asm/audio_src_base.h"
+	"dac.h"
+	"anc.h"
+	"asm/hw_eq.h"
+	"asm/audio_sync.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\cpu\br28\asm\audio_adc.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/atomic.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\cpu\br28\asm\audio_linein.h
+	"generic/typedef.h"
+	"asm/audio_adc.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\cpu\br28\asm\audio_src.h
+	"media/audio_stream.h"
+	"audio_resample.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\audio_resample.h
+	"typedef.h"
+	"media/audio_stream.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\cpu\br28\asm\audio_src_base.h
+	"audio_src.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\cpu\br28\asm\dac.h
+	"generic/typedef.h"
+	"generic/atomic.h"
+	"os/os_api.h"
+	"media/audio_stream.h"
+	"media/audio_cfifo.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\audio_cfifo.h
+	"generic/list.h"
+	"typedef.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\cpu\br28\asm\anc.h
+	"generic/typedef.h"
+	"system/task.h"
+	"anc_btspp.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\anc_btspp.h
+	"generic/typedef.h"
+	"asm/anc.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\cpu\br28\asm\hw_eq.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"os/os_api.h"
+	"media/eq_func_define.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\eq_func_define.h
+	"application/eq_func_define.h"
+	"generic/typedef.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\eq_func_define.h
+	"generic/typedef.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\cpu\br28\asm\audio_sync.h
+	"media/audio_stream.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\mixer_cyclic.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"media/audio_stream.h"
+	"application/audio_buf_sync.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\automute.h
+	"generic/typedef.h"
+	"generic/list.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\effectrs_sync.h
+	"generic/typedef.h"
+	"generic/list.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\cpu\br28\asm\audio_spdif.h
+	"generic/typedef.h"
+	"generic/list.h"
+
+1669876567 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\audio_config.h
+	"generic/typedef.h"
+	"board_config.h"
+	"asm/dac.h"
+
+1669876551 d:\jl\jl701n_soundbox\qlsdk\apps\common\audio\audio_digital_vol.h
+	"generic/typedef.h"
+	"os/os_type.h"
+	"os/os_api.h"
+	"generic/list.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_enc.h
+	"generic/typedef.h"
+
+1669876559 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_enc\audio_sbc_codec.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"media/audio_base.h"
+	"media/audio_stream.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\file_decoder.h
+	"media/includes.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\apps\common\music\music_player.h
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"media/audio_decoder.h"
+	"dev_manager/dev_manager.h"
+	"file_operate/file_manager.h"
+	"audio_dec/audio_dec_file.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\server\server_core.h
+	"generic/typedef.h"
+	"system/task.h"
+	"spinlock.h"
+	"list.h"
+
+1687252678 d:\jl\jl701n_soundbox\qlsdk\apps\common\dev_manager\dev_manager.h
+	"system/includes.h"
+	"typedef.h"
+	"system/fs/fs.h"
+
+1687252667 d:\jl\jl701n_soundbox\qlsdk\apps\common\file_operate\file_manager.h
+	"system/includes.h"
+	"typedef.h"
+	"system/fs/fs.h"
+	"dev_manager.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_dec\audio_dec_file.h
+	"asm/includes.h"
+	"media/includes.h"
+	"media/file_decoder.h"
+	"system/includes.h"
+	"media/audio_decoder.h"
+	"app_config.h"
+	"music/music_decrypt.h"
+	"music/music_id3.h"
+	"application/audio_vocal_tract_synthesis.h"
+	"application/audio_pitchspeed.h"
+	"media/audio_surround.h"
+	"media/audio_vbass.h"
+	"media/effects_adj.h"
+	"audio_effect/audio_dynamic_eq_demo.h"
+	"audio_effect/audio_eff_default_parm.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\apps\common\music\music_decrypt.h
+	"typedef.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\apps\common\music\music_id3.h
+	"typedef.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\audio_vocal_tract_synthesis.h
+	"system/includes.h"
+	"media/includes.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\audio_pitchspeed.h
+	"asm/includes.h"
+	"media/includes.h"
+	"system/includes.h"
+	"asm/ps_cal_api.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\cpu\br28\asm\ps_cal_api.h
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\audio_surround.h
+	"application/audio_surround.h"
+	"system/includes.h"
+	"media/includes.h"
+	"media/effect_sur_api.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\audio_surround.h
+	"system/includes.h"
+	"media/includes.h"
+	"surround/effect_sur_api.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\surround\effect_sur_api.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\effect_sur_api.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\audio_vbass.h
+	"application/audio_vbass.h"
+	"system/includes.h"
+	"media/audio_stream.h"
+	"media/VirtualBass_api.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\audio_vbass.h
+	"system/includes.h"
+	"media/audio_stream.h"
+	"vbass/vbass_api.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\vbass\vbass_api.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\virtualbass_api.h
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\effects_adj.h
+	"system/includes.h"
+	"config/config_interface.h"
+	"asm/crc16.h"
+	"generic/log.h"
+	"media/audio_eq.h"
+	"media/audio_drc.h"
+	"media/howling_api.h"
+	"media/sw_drc.h"
+	"media/DynamicEQ_api.h"
+	"media/DynamicEQ_Detection_api.h"
+	"media/reverb_api.h"
+	"media/noisegate_api.h"
+	"media/audio_gain_process.h"
+	"media/voiceChanger_api.h"
+	"media/audio_vbass.h"
+	"media/multi_ch_mix.h"
+	"media/audio_surround.h"
+	"media/audio_ch_swap.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\config\config_interface.h
+	"config/config_transport.h"
+	"config/config_target.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\config\config_transport.h
+	"typedef.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\config\config_target.h
+	"typedef.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\audio_eq.h
+	"application/audio_eq.h"
+	"typedef.h"
+	"asm/hw_eq.h"
+	"media/audio_stream.h"
+	"system/timer.h"
+	"system/init.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\audio_eq.h
+	"typedef.h"
+	"asm/hw_eq.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\audio_drc.h
+	"application/audio_drc.h"
+	"typedef.h"
+	"media/sw_drc.h"
+	"media/audio_stream.h"
+	"system/init.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\audio_drc.h
+	"typedef.h"
+	"sw_drc.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\sw_drc.h
+	"media/sw_drc.h"
+	"generic/typedef.h"
+	"generic/list.h"
+	"os/os_api.h"
+	"drc_api.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\sw_drc.h
+	"media/media_develop/media/sw_drc.h"
+	"generic/typedef.h"
+	"generic/list.h"
+	"os/os_api.h"
+	"drc_api.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\drc_api.h
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\drc_api.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\howling_api.h
+	"media/howling_pitchshifter_api.h"
+	"pemafrow_api.h"
+	"media/audio_stream.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\howling_pitchshifter_api.h
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\cpu\br28\asm\pemafrow_api.h
+	"media/audio_stream.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\dynamiceq_api.h
+	"asm/hw_eq.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\dynamiceq_detection_api.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\reverb_api.h
+	"media/audio_stream.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\noisegate_api.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\audio_gain_process.h
+	"media/audio_stream.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\voicechanger_api.h
+	"asm/cpu.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\multi_ch_mix.h
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\audio_ch_swap.h
+	"media/audio_stream.h"
+
+1669876559 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_effect\audio_dynamic_eq_demo.h
+	"media/dynamic_eq.h"
+	"media/effects_adj.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\dynamic_eq.h
+	"system/includes.h"
+	"media/audio_stream.h"
+	"media/DynamicEQ_api.h"
+	"media/DynamicEQ_Detection_api.h"
+	"media/audio_eq.h"
+	"media/drc_api.h"
+	"media/convert_data.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\convert_data.h
+	"system/includes.h"
+	"media/audio_stream.h"
+
+1669876559 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_effect\audio_eff_default_parm.h
+	"app_config.h"
+	"media/effects_adj.h"
+	"audio_effect/audio_noise_gate_demo.h"
+	"audio_mic/effect_parm.h"
+	"audio_effect/audio_ch_swap_demo.h"
+
+1669876559 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_effect\audio_noise_gate_demo.h
+	"media/effects_adj.h"
+	"media/audio_noisegate.h"
+	"audio_eff_default_parm.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\audio_noisegate.h
+	"application/audio_noisegate.h"
+	"media/audio_stream.h"
+	"media/noisegate_api.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\audio_noisegate.h
+	"media/audio_stream.h"
+	"asm/noisegate_api.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\cpu\br28\asm\noisegate_api.h
+
+1669876557 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_mic\effect_parm.h
+	"mic_effect.h"
+	"media/effects_adj.h"
+	"audio_effect/audio_voice_changer_demo.h"
+
+1669876557 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_mic\mic_effect.h
+	"system/includes.h"
+	"audio_mic/effect_reg.h"
+	"audio_mic/effect_parm.h"
+	"app_config.h"
+	"application/audio_pemafrow.h"
+	"audio_way/audio_app_stream.h"
+
+1669876557 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_mic\effect_reg.h
+	"system/includes.h"
+	"audio_mic/mic_stream.h"
+	"media/audio_eq.h"
+	"media/audio_howling.h"
+	"media/audio_voice_changer.h"
+	"media/audio_noisegate.h"
+	"media/audio_echo_reverb.h"
+	"application/audio_dig_vol.h"
+	"application/audio_energy_detect.h"
+
+1669876557 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_mic\mic_stream.h
+	"system/includes.h"
+	"media/includes.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\audio_howling.h
+	"application/audio_howling.h"
+	"media/howling_api.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\audio_howling.h
+	"asm/howling_api.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\cpu\br28\asm\howling_api.h
+	"asm/howling_pitchshifter_api.h"
+	"pemafrow_api.h"
+	"media/audio_stream.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\cpu\br28\asm\howling_pitchshifter_api.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\audio_voice_changer.h
+	"media/voiceChanger_api.h"
+	"media/audio_stream.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\audio_echo_reverb.h
+	"application/audio_echo_reverb.h"
+	"media/reverb_api.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\audio_echo_reverb.h
+	"application/reverb_api.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\reverb_api.h
+	"media/audio_stream.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\audio_dig_vol.h
+	"application/audio_dig_vol.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\audio_energy_detect.h
+	"typedef.h"
+	"application/audio_energy_detect.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\audio_pemafrow.h
+	"asm/pemafrow_api.h"
+
+1669876559 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_way\audio_app_stream.h
+	"audio_stream.h"
+
+1669876559 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_effect\audio_voice_changer_demo.h
+	"system/includes.h"
+	"media/includes.h"
+	"media/audio_voice_changer.h"
+	"media/effects_adj.h"
+
+1669876559 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_effect\audio_ch_swap_demo.h
+	"media/effects_adj.h"
+	"media/audio_ch_swap.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\bt_vartual_fast_connect.h
+
+1669876557 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\clock_cfg.h
+	"typedef.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\pcm_decoder.h
+	"media/includes.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\cpu\br28\asm\resample_api.h
+
+1688439218 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\bt\bt_vartual_fast_connect.c
+	"system/includes.h"
+	"app_config.h"
+	"bt_vartual_fast_connect.h"
+	"bt_tws.h"
+	"classic/tws_pair.h"
+	"user_cfg.h"
+	"cpu.h"
+	"app_main.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_error.h"
+	"btstack/bluetooth.h"
+	"bt.h"
+	"clock_cfg.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\bt_tws.h
+	"classic/tws_api.h"
+	"classic/tws_event.h"
+	"system/includes.h"
+	"tws_box_api.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\btctrler\classic\tws_api.h
+	"typedef.h"
+	"classic/tws_event.h"
+	"classic/tws_local_media_sync.h"
+	"classic/tws_data_trans.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\btctrler\classic\tws_event.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\btctrler\classic\tws_local_media_sync.h
+	"generic/list.h"
+	"generic/typedef.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\btctrler\classic\tws_data_trans.h
+	"generic/typedef.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\tws_box_api.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\btctrler\classic\tws_pair.h
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\btstack_error.h
+
+1688440564 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\bt\vol_sync.c
+	"typedef.h"
+	"app_main.h"
+	"app_config.h"
+	"vol_sync.h"
+	"tone_player.h"
+	"broadcast_api.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\vol_sync.h
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\tone_player.h
+	"app_config.h"
+	"audio_config.h"
+	"sine_make.h"
+
+1669876551 d:\jl\jl701n_soundbox\qlsdk\apps\common\audio\sine_make.h
+	"generic/typedef.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\broadcast\broadcast_api.h
+	"app_config.h"
+	"typedef.h"
+
+1669876551 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\le_audio\broadcast_audio_sync.c
+	"system/includes.h"
+	"broadcast_audio_sync.h"
+	"media/drift_compensation.h"
+	"media/delay_compensation.h"
+	"media/audio_syncts.h"
+	"broadcast_api.h"
+
+1669876551 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\broadcast_audio_sync.h
+	"typedef.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\drift_compensation.h
+	"typedef.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\delay_compensation.h
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\audio_syncts.h
+	"typedef.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_dec\audio_dec.h
+	"asm/includes.h"
+	"media/includes.h"
+	"system/includes.h"
+	"asm/audio_src.h"
+	"audio_digital_vol.h"
+	"media/audio_eq_drc_apply.h"
+	"application/audio_vocal_tract_synthesis.h"
+	"application/audio_dig_vol.h"
+	"audio_effect/audio_eq_drc_demo.h"
+	"audio_effect/audio_gain_process_demo.h"
+	"audio_effect/audio_sound_track_2_p_x.h"
+	"media/effects_adj.h"
+	"media/convert_data.h"
+	"stream/stream_entry.h"
+	"audio_effect/audio_vbass_demo.h"
+	"audio_effect/audio_surround_demo.h"
+	"audio_effect/audio_eff_default_parm.h"
+	"audio_dec_bt.h"
+	"audio_dec_file.h"
+	"audio_dec_fm.h"
+	"audio_dec_linein.h"
+	"audio_dec_pc.h"
+	"audio_dec_spdif.h"
+	"audio_dec_record.h"
+	"audio_dec_tone.h"
+	"localtws/localtws.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\audio_eq_drc_apply.h
+	"application/audio_eq_drc_apply.h"
+	"system/includes.h"
+	"media/audio_stream.h"
+	"media/audio_eq.h"
+	"media/eq_config.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\audio_eq_drc_apply.h
+	"system/includes.h"
+	"media/audio_stream.h"
+	"application/eq_config.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\eq_config.h
+	"application/audio_eq.h"
+	"application/audio_drc.h"
+	"spinlock.h"
+	"math.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\eq_config.h
+	"application/eq_config.h"
+	"media/audio_eq.h"
+	"media/audio_drc.h"
+	"spinlock.h"
+	"math.h"
+
+1669876559 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_effect\audio_eq_drc_demo.h
+	"asm/includes.h"
+	"media/includes.h"
+	"system/includes.h"
+	"media/eq_config.h"
+	"app_config.h"
+	"audio_config.h"
+
+1669876559 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_effect\audio_gain_process_demo.h
+	"media/effects_adj.h"
+	"media/audio_gain_process.h"
+
+1669876559 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_effect\audio_sound_track_2_p_x.h
+	"app_config.h"
+	"clock_cfg.h"
+	"media/includes.h"
+	"asm/includes.h"
+	"media/eq_config.h"
+	"media/effects_adj.h"
+	"audio_effect/audio_eff_default_parm.h"
+	"application/audio_vocal_tract_synthesis.h"
+	"audio_config.h"
+
+1669876551 d:\jl\jl701n_soundbox\qlsdk\apps\common\audio\stream\stream_entry.h
+	"system/includes.h"
+	"media/includes.h"
+
+1669876559 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_effect\audio_vbass_demo.h
+	"audio_vbass_demo.h"
+	"media/effects_adj.h"
+	"audio_effect/audio_eff_default_parm.h"
+	"app_config.h"
+	"media/audio_vbass.h"
+	"clock_cfg.h"
+
+1669876559 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_effect\audio_surround_demo.h
+	"media/effects_adj.h"
+	"audio_effect/audio_eff_default_parm.h"
+	"media/audio_surround.h"
+	"app_config.h"
+	"clock_cfg.h"
+	"audio_dec.h"
+
+1669876567 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_dec\audio_dec_bt.h
+	"asm/includes.h"
+	"media/includes.h"
+	"system/includes.h"
+	"media/audio_decoder.h"
+
+1669876567 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_dec\audio_dec_fm.h
+	"asm/includes.h"
+	"media/includes.h"
+	"system/includes.h"
+	"media/audio_decoder.h"
+	"mic_effect.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_dec\audio_dec_linein.h
+	"asm/includes.h"
+	"media/includes.h"
+	"system/includes.h"
+	"media/audio_decoder.h"
+
+1669876567 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_dec\audio_dec_pc.h
+	"asm/includes.h"
+	"media/includes.h"
+	"system/includes.h"
+	"media/audio_decoder.h"
+
+1669876567 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_dec\audio_dec_spdif.h
+	"asm/includes.h"
+	"media/includes.h"
+	"system/includes.h"
+	"media/audio_decoder.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_dec\audio_dec_record.h
+	"asm/includes.h"
+	"media/includes.h"
+	"system/includes.h"
+	"media/audio_decoder.h"
+
+1669876567 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_dec\audio_dec_tone.h
+	"asm/includes.h"
+	"media/includes.h"
+	"media/file_decoder.h"
+	"system/includes.h"
+	"media/audio_decoder.h"
+	"application/audio_dec_app.h"
+	"tone_player.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\audio_dec_app.h
+	"asm/includes.h"
+	"media/includes.h"
+	"media/audio_stream.h"
+	"system/includes.h"
+	"channel_switch.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\channel_switch.h
+	"media/audio_stream.h"
+
+1669876559 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\localtws\localtws.h
+	"application/audio_localtws.h"
+	"media/localtws_decoder.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\application\audio_localtws.h
+	"asm/includes.h"
+	"system/includes.h"
+	"media/mixer.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\localtws_decoder.h
+	"media/includes.h"
+
+1669876551 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\le_audio\le_audio_stream.c
+	"le_audio_stream.h"
+	"system/includes.h"
+
+1669876551 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\le_audio_stream.h
+	"typedef.h"
+
+1688439218 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\bt\bt_key_fun.c
+	"system/includes.h"
+	"media/includes.h"
+	"app_config.h"
+	"app_task.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"btstack/btstack_error.h"
+	"btctrler/btctrler_task.h"
+	"classic/hci_lmp.h"
+	"bt_tws.h"
+	"bt_ble.h"
+	"bt.h"
+	"vol_sync.h"
+	"bt_emitter.h"
+	"bt_common.h"
+	"aec_user.h"
+	"math.h"
+	"spp_user.h"
+	"app_chargestore.h"
+	"app_charge.h"
+	"app_main.h"
+	"app_power_manage.h"
+	"user_cfg.h"
+	"asm/pwm_led.h"
+	"asm/timer.h"
+	"asm/hwi.h"
+	"cpu.h"
+	"ui/ui_api.h"
+	"ui_manage.h"
+	"ui/ui_style.h"
+	"key_event_deal.h"
+	"clock_cfg.h"
+	"gSensor/gSensor_manage.h"
+	"soundcard/soundcard.h"
+	"audio_dec.h"
+	"tone_player.h"
+	"dac.h"
+	"broadcast_api.h"
+	"debug.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\btctrler\btctrler_task.h
+	"typedef.h"
+	"system/task.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\aec_user.h
+	"generic/typedef.h"
+	"user_cfg.h"
+	"commproc.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\cpu\br28\commproc.h
+	"generic/typedef.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\third_party\common\spp_user.h
+	"typedef.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\app_charge.h
+	"typedef.h"
+	"system/event.h"
+
+1688817126 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\pwm_led.h
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\ui\ui_api.h
+	"app_config.h"
+	"ui/lcd_spi/lcd_drive.h"
+	"ui/ui.h"
+	"ui/ui_style.h"
+
+1688631634 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\ui\lcd_spi\lcd_drive.h
+	"asm/spi.h"
+	"asm/imd.h"
+	"app_config.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\spi.h
+	"typedef.h"
+	"generic/ioctl.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\cpu\br28\asm\imd.h
+	"generic/typedef.h"
+	"asm/imd_spi.h"
+	"asm/imd_mcu.h"
+	"asm/imd_rgb.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\cpu\br28\asm\imd_spi.h
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\cpu\br28\asm\imd_mcu.h
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\cpu\br28\asm\imd_rgb.h
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\ui.h
+	"window.h"
+	"ui_button.h"
+	"ui_grid.h"
+	"ui_time.h"
+	"ui_camera.h"
+	"ui_pic.h"
+	"ui_text.h"
+	"ui_battery.h"
+	"ui_browser.h"
+	"ui_slider.h"
+	"ui_slider_vert.h"
+	"ui_number.h"
+	"ui_watch.h"
+	"ui_progress.h"
+	"ui_progress_multi.h"
+	"ui_rotate.h"
+	<stdarg.h>
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\window.h
+	"ui/layer.h"
+	"ui/ui_core.h"
+	"ui/control.h"
+	"list.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\layer.h
+	"ui/layout.h"
+	"ui/control.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\layout.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\ui_core.h
+	"typedef.h"
+	"rect.h"
+	"system/event.h"
+	"res/resfile.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\res\resfile.h
+	"typedef.h"
+	"fs/fs.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\control.h
+	"ui/ui_core.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\ui_button.h
+	"ui/control.h"
+	"ui/ui_core.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\ui_grid.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\ui_time.h
+	"ui/control.h"
+	"ui/ui_core.h"
+	"ui/p.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\p.h
+	"ui/ui_core.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\ui_camera.h
+	"ui/control.h"
+	"ui/ui_core.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\ui_pic.h
+	"ui/ui_core.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\ui_text.h
+	"ui/ui_core.h"
+	"ui/control.h"
+	"font/font_all.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\font\font_all.h
+	"generic/typedef.h"
+	"font/font_sdfs.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\font\font_sdfs.h
+	"generic/typedef.h"
+	"fs/fs.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\ui_battery.h
+	"ui/control.h"
+	"list.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\ui_browser.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\ui_slider.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\ui_slider_vert.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\ui_number.h
+	"ui/control.h"
+	"ui/ui_core.h"
+	"ui/p.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\ui_watch.h
+	"ui/control.h"
+	"ui/ui_core.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\ui_progress.h
+	"ui/control.h"
+	"ui/ui_core.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\ui_progress_multi.h
+	"ui/control.h"
+	"ui/ui_core.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui\ui_rotate.h
+	"rect.h"
+
+1688631272 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\ui\ui_style.h
+	"ui/style_JL.h"
+	"ui/style_DIAL.h"
+	"ui/style_upgrade.h"
+	"ui/style_sidebar.h"
+	"ui/style_jl02.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\ui\style_led7.h
+	"ui/ui_common.h"
+	"ui/led7/led7_driver.h"
+	"ui/lcd_seg/lcd_seg3x9_driver.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\ui\ui_common.h
+	"typedef.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\ui\led7\led7_driver.h
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\ui\lcd_seg\lcd_seg3x9_driver.h
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\ui\style_jl.h
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\ui\style_dial.h
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\ui\style_upgrade.h
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\ui\style_sidebar.h
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\ui\style_jl02.h
+
+1691401530 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\ui_manage.h
+	"typedef.h"
+	"asm/pwm_led.h"
+
+1669876550 d:\jl\jl701n_soundbox\qlsdk\apps\common\device\gsensor\gsensor_manage.h
+	"printf.h"
+	"cpu.h"
+	"asm/iic_hw.h"
+	"asm/iic_soft.h"
+	"timer.h"
+	"app_config.h"
+	"event.h"
+	"system/includes.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\iic_hw.h
+	"system/generic/typedef.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\iic_soft.h
+	"generic/typedef.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\soundcard\soundcard.h
+	"generic/typedef.h"
+	"app_config.h"
+	"system/includes.h"
+
+1688439218 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\bt\bt_product_test.c
+	"system/includes.h"
+	"media/includes.h"
+	"app_config.h"
+	"app_task.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"btstack/btstack_error.h"
+	"btctrler/btctrler_task.h"
+	"classic/hci_lmp.h"
+	"bt_tws.h"
+	"bt_ble.h"
+	"bt.h"
+	"vol_sync.h"
+	"bt_emitter.h"
+	"bt_common.h"
+	"aec_user.h"
+	"math.h"
+	"spp_user.h"
+	"app_chargestore.h"
+	"app_charge.h"
+	"app_main.h"
+	"app_power_manage.h"
+	"user_cfg.h"
+	"asm/pwm_led.h"
+	"asm/timer.h"
+	"asm/hwi.h"
+	"cpu.h"
+	"ui/ui_api.h"
+	"ui_manage.h"
+	"ui/ui_style.h"
+	"key_event_deal.h"
+	"clock_cfg.h"
+	"gSensor/gSensor_manage.h"
+	"soundcard/soundcard.h"
+	"audio_dec.h"
+	"tone_player.h"
+	"dac.h"
+	"debug.h"
+	"asm/uart_dev.h"
+
+1691028944 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\bt\bt_switch_fun.c
+	"system/includes.h"
+	"media/includes.h"
+	"app_config.h"
+	"app_task.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"btstack/btstack_error.h"
+	"btctrler/btctrler_task.h"
+	"classic/hci_lmp.h"
+	"bt_tws.h"
+	"bt_ble.h"
+	"bt.h"
+	"vol_sync.h"
+	"bt_emitter.h"
+	"bt_common.h"
+	"aec_user.h"
+	"soundbox.h"
+	"math.h"
+	"spp_user.h"
+	"app_chargestore.h"
+	"app_charge.h"
+	"app_main.h"
+	"app_power_manage.h"
+	"user_cfg.h"
+	"asm/pwm_led.h"
+	"asm/timer.h"
+	"asm/hwi.h"
+	"cpu.h"
+	"ui/ui_api.h"
+	"ui_manage.h"
+	"ui/ui_style.h"
+	"key_event_deal.h"
+	"clock_cfg.h"
+	"gSensor/gSensor_manage.h"
+	"soundcard/soundcard.h"
+	"audio_dec.h"
+	"tone_player.h"
+	"dac.h"
+	"app_broadcast.h"
+	"debug.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\soundbox.h
+	"app_config.h"
+	"system/includes.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\broadcast\app_broadcast.h
+	"typedef.h"
+
+1688439218 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\bt\bt_tws.c
+	"system/includes.h"
+	"media/includes.h"
+	"device/vm.h"
+	"tone_player.h"
+	"app_config.h"
+	"app_task.h"
+	"user_cfg.h"
+	"btcontroller_config.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"classic/hci_lmp.h"
+	"bt_tws.h"
+	"classic/tws_pair.h"
+	"bt_ble.h"
+	"bt.h"
+	"asm/pwm_led.h"
+	"asm/charge.h"
+	"app_charge.h"
+	"ui_manage.h"
+	"app_chargestore.h"
+	"app_online_cfg.h"
+	"app_main.h"
+	"app_power_manage.h"
+	"audio_config.h"
+	"audio_dec.h"
+	"tone_player.h"
+	"bt_common.h"
+	"soundbox.h"
+	"debug.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\btctrler\port\br28\btcontroller_config.h
+	"btcontroller_modules.h"
+	"ble/ll_config.h"
+	"classic/lmp_config.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\btctrler\ble\ll_config.h
+	<stdint.h>
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\btctrler\classic\lmp_config.h
+
+1690338997 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\charge.h
+	"typedef.h"
+	"device.h"
+
+1669876547 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\app_online_cfg.h
+
+1669876549 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\bt\bt_tws_new.c
+	"system/includes.h"
+	"media/includes.h"
+	"device/vm.h"
+	"tone_player.h"
+	"app_config.h"
+	"app_task.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"classic/hci_lmp.h"
+	"user_cfg.h"
+	"bt_tws.h"
+	"asm/charge.h"
+	"app_charge.h"
+	"ui_manage.h"
+	"app_chargestore.h"
+	"app_online_cfg.h"
+	"app_main.h"
+	"app_power_manage.h"
+	"audio_config.h"
+	"user_cfg.h"
+	"btcontroller_config.h"
+	"bt_common.h"
+	"asm/pwm_led.h"
+	"bt_common.h"
+	"include/bt_ble.h"
+	"debug.h"
+	"tws_box_api.c"
+
+1669876549 d:\jl\jl701n_soundbox\qlsdk\bt_lib\bt\tws_box_api.c
+
+1686101911 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\le_client_demo.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"le_client_demo.h"
+	"le_common.h"
+	"ble_user.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\app_action.h
+	"app_config.h"
+	"system/app_core.h"
+	"system/task.h"
+	"common/user_msg.h"
+	"bt_tws.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\common\user_msg.h
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\le_client_demo.h
+	<stdint.h>
+	"btstack/le/att.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\third_party\common\ble_user.h
+	"typedef.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\multi_demo\le_multi_client.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"le_client_demo.h"
+	"le_common.h"
+	"ble_user.h"
+	"le_multi_common.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\le_multi_common.h
+	<stdint.h>
+	"app_config.h"
+
+1682416490 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\le_audio\le_audio_test.c
+	"le_audio_codec.h"
+	"le_audio_stream.h"
+	"app_config.h"
+	"system/includes.h"
+	"le_common.h"
+	"wireless_dev_manager.h"
+	"big.h"
+
+1669876551 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\le_audio_codec.h
+	"typedef.h"
+	"audio_base.h"
+
+1669876557 d:\jl\jl701n_soundbox\qlsdk\apps\common\wireless_dev_manager\wireless_dev_manager.h
+	"typedef.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\third_party\broadcast\big.h
+	"typedef.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\bt_trans_data\ble_rcsp_multi_client.c
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"le_client_demo.h"
+	"le_common.h"
+	"ble_user.h"
+	"ble_rcsp_multi_common.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\ble_rcsp_multi_common.h
+	<stdint.h>
+	"app_config.h"
+
+1686101890 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\multi_demo\le_multi_common.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"le_multi_common.h"
+	"btcontroller_config.h"
+	"rcsp_bluetooth.h"
+
+1669876552 d:\jl\jl701n_soundbox\qlsdk\apps\common\third_party_profile\common\3th_profile_api.h
+	<string.h>
+	<stdint.h>
+	"le_common.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\third_party\rcsp\jl_rcsp_api.h
+	"typedef.h"
+	"uart.h"
+
+1669876552 d:\jl\jl701n_soundbox\qlsdk\apps\common\third_party_profile\common\custom_cfg.h
+	"typedef.h"
+	<string.h>
+	"app_config.h"
+
+1688458866 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\multi_demo\le_multi_trans.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"le_multi_common.h"
+	"le_multi_trans.h"
+	"rcsp_bluetooth.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\le_multi_trans.h
+	<stdint.h>
+	"app_config.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\bt_trans_data\ble_rcsp_multi_common.c
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"ble_rcsp_module.h"
+	"ble_rcsp_multi_common.h"
+	"btcontroller_config.h"
+
+1693749727 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\ble_rcsp_module.h
+	<stdint.h>
+	"bt_common.h"
+	"ble_user.h"
+	"btstack/btstack_typedef.h"
+	"Ohrdrive.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\bt_trans_data\ble_rcsp_multi_trans.c
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_common.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"ble_rcsp_multi_common.h"
+	"ble_rcsp_multi_trans.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\ble_rcsp_multi_trans.h
+	<stdint.h>
+	"app_config.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\online_db\spp_online_db.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"bt_common.h"
+	"online_db_deal.h"
+	"spp_online_db.h"
+	"cfg_tool.h"
+	"app_anctool.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\apps\common\third_party_profile\jieli\online_db\online_db_deal.h
+	"typedef.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\spp_online_db.h
+	"typedef.h"
+	"bt_common.h"
+
+1669876551 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\cfg_tool.h
+	"typedef.h"
+	"sdfile.h"
+	"fs.h"
+	"asm/sfc_norflash_api.h"
+
+1669876569 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\sfc_norflash_api.h
+	"typedef.h"
+
+1688461257 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\ble_rcsp_module.c
+	"system/includes.h"
+	"rcsp_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"app_power_manage.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"btstack/avctp_user.h"
+	"app_chargestore.h"
+	"btcrypt.h"
+	"custom_cfg.h"
+	"rcsp_music_info_setting.h"
+	"ble_rcsp_adv.h"
+	"ble_rcsp_module.h"
+	"classic/tws_api.h"
+	"rcsp_update.h"
+	"ble_rcsp_multi_common.h"
+	"btstack/btstack_event.h"
+	"adv_hearing_aid_setting.h"
+	"chgbox_box.h"
+
+1669876553 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_config.h
+	"typedef.h"
+	"app_config.h"
+	"le_common.h"
+	"spp_user.h"
+	"ble_user.h"
+	"btstack_3th_protocol_user.h"
+	"app_task.h"
+	"rcsp_bt_manage.h"
+	"soundbox.h"
+	"ui/ui_api.h"
+	"music/music.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\third_party\common\btstack_3th_protocol_user.h
+	"spp_config.h"
+	"ble_config.h"
+	"JL_rcsp_api.h"
+	"JL_rcsp_protocol.h"
+	"JL_rcsp_packet.h"
+	"attr.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\third_party\common\spp_config.h
+	"typedef.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\third_party\common\ble_config.h
+	"typedef.h"
+	"ble_user.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\third_party\rcsp\jl_rcsp_protocol.h
+	"typedef.h"
+	"JL_rcsp_packet.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\third_party\rcsp\jl_rcsp_packet.h
+	"typedef.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\third_party\rcsp\attr.h
+	"typedef.h"
+
+1669876552 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_bt_manage.h
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\task_manager\music\music.h
+	"system/app_core.h"
+	"system/includes.h"
+	"server/server_core.h"
+	"media/audio_decoder.h"
+	"music_player.h"
+	"app_config.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\btcrypt.h
+	<string.h>
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_music_info_setting.h
+	"ble_rcsp_module.h"
+
+1688529297 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\ble_rcsp_adv.h
+	<stdint.h>
+	"bt_common.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_update.h
+	"typedef.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\adv_hearing_aid_setting.h
+	"audio_hearing_aid.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\bt_trans_data\ble_rcsp_adv.c
+	"system/includes.h"
+	"rcsp_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"app_power_manage.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"btstack/avctp_user.h"
+	"app_chargestore.h"
+	"btcrypt.h"
+	"custom_cfg.h"
+	"rcsp_music_info_setting.h"
+	"classic/tws_api.h"
+	"ble_rcsp_module.h"
+	"rcsp_manage.h"
+	"rcsp_bt_manage.h"
+	"rcsp_adv_bluetooth.h"
+	"rcsp_update.h"
+	"bt_tws.h"
+	"earphone.h"
+	"asm/charge.h"
+
+1669876552 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_manage.h
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_adv_bluetooth.h
+	"typedef.h"
+	"system/event.h"
+
+1669876553 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\cmd_recieve.c
+	"rcsp_config.h"
+	"rcsp.h"
+	"rcsp_function.h"
+	"rcsp_feature.h"
+	"rcsp_switch_device.h"
+	"file_transfer.h"
+	"file_delete.h"
+	"file_env_prepare.h"
+	"file_trans_back.h"
+	"dev_format.h"
+	"rcsp_event.h"
+	"btstack/avctp_user.h"
+	"app_action.h"
+	"rcsp_adv_bluetooth.h"
+	"rcsp_extra_flash_cmd.h"
+	"rcsp_update.h"
+	"fs.h"
+	"file_bluk_trans_prepare.h"
+	"sensors_data_opt.h"
+	"file_simple_transfer.h"
+	"custom_cfg.h"
+	"JL_rcsp_api.h"
+	"classic/tws_api.h"
+	"bt_tws.h"
+	"asm/debug_record.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp.h
+	"typedef.h"
+	"app_config.h"
+	"rcsp_config.h"
+	"rcsp_function.h"
+	"rcsp_browser.h"
+	"rcsp_cmd_user.h"
+	"rcsp_task.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_function.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_browser.h
+	"typedef.h"
+	"app_config.h"
+
+1669876553 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_cmd_user.h
+	"typedef.h"
+	"JL_rcsp_protocol.h"
+
+1669876553 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_task.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_feature.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_switch_device.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\file_transfer.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\file_delete.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\file_env_prepare.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\file_trans_back.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\dev_format.h
+	"typedef.h"
+	"app_config.h"
+
+1669876552 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_event.h
+	"typedef.h"
+	"app_config.h"
+	"rcsp_user_msg.h"
+
+1688457093 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_user_msg.h
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_extra_flash_cmd.h
+	"typedef.h"
+	"system/event.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\file_bluk_trans_prepare.h
+	"typedef.h"
+	"app_config.h"
+
+1669876554 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sensors_data_opt.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\file_simple_transfer.h
+	"typedef.h"
+	"app_config.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\driver\cpu\br28\asm\debug_record.h
+
+1669876554 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\cmd_recieve_no_respone.c
+	"rcsp_config.h"
+	"rcsp_event.h"
+	"rcsp_extra_flash_cmd.h"
+	"sensor_log_notify.h"
+
+1669876554 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sensor_log_notify.h
+	"typedef.h"
+	"app_config.h"
+
+1669876553 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\cmd_respone.c
+	"rcsp_config.h"
+	"rcsp_event.h"
+	"rcsp_update.h"
+	"file_transfer.h"
+	"asm/debug_record.h"
+
+1669876554 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\data_recieve.c
+	"rcsp_config.h"
+	"rcsp_event.h"
+
+1669876553 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\data_recieve_no_respone.c
+	"rcsp_config.h"
+	"rcsp_event.h"
+	"file_transfer.h"
+
+1669876553 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\data_respone.c
+	"rcsp_config.h"
+	"rcsp_event.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\browser\rcsp_browser.c
+	"rcsp_browser.h"
+	"rcsp.h"
+	"dev_manager.h"
+	"music_player.h"
+	"file_operate/file_bs_deal.h"
+	"rcsp_event.h"
+
+1669876550 d:\jl\jl701n_soundbox\qlsdk\apps\common\file_operate\file_bs_deal.h
+	"fs/fs.h"
+	"storage_dev/storage_dev.h"
+
+1669876551 d:\jl\jl701n_soundbox\qlsdk\apps\common\storage_dev\storage_dev.h
+	"typedef.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\device_info\func_cmd\rcsp_bt_func.c
+	"rcsp_bt_func.h"
+	"rcsp_func_cmd_common.h"
+	"rcsp_function.h"
+	"rcsp_config.h"
+	"rcsp_event.h"
+	"app_action.h"
+	"ble_rcsp_module.h"
+	"rcsp_music_info_setting.h"
+	"JL_rcsp_protocol.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_bt_func.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_func_cmd_common.h
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\device_info\func_cmd\rcsp_fm_func.c
+	"rcsp_fm_func.h"
+	"rcsp_func_cmd_common.h"
+	"rcsp_function.h"
+	"rcsp_config.h"
+	"rcsp_event.h"
+	"app_action.h"
+	"key_event_deal.h"
+	"fm/fm_api.h"
+	"fm/fm_rw.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_fm_func.h
+	"typedef.h"
+	"app_config.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\task_manager\fm\fm_api.h
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\task_manager\fm\fm_rw.h
+	"fm/fm_manage.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\task_manager\fm\fm_manage.h
+	"printf.h"
+	"cpu.h"
+	"asm/iic_hw.h"
+	"asm/iic_soft.h"
+	"timer.h"
+	"app_config.h"
+	"event.h"
+	"system/includes.h"
+	"typedef.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\device_info\func_cmd\rcsp_linein_func.c
+	"rcsp_linein_func.h"
+	"rcsp_func_cmd_common.h"
+	"rcsp_function.h"
+	"rcsp_config.h"
+	"rcsp_event.h"
+	"app_action.h"
+	"app_msg.h"
+	"key_event_deal.h"
+	"linein/linein.h"
+	"tone_player.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_linein_func.h
+	"typedef.h"
+	"app_config.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\task_manager\linein\linein.h
+	"system/event.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\device_info\func_cmd\rcsp_music_func.c
+	"rcsp_music_func.h"
+	"rcsp_func_cmd_common.h"
+	"rcsp.h"
+	"rcsp_function.h"
+	"rcsp_config.h"
+	"key_event_deal.h"
+	"music/music_player.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_music_func.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\device_info\func_cmd\rcsp_rtc_func.c
+	"rcsp_rtc_func.h"
+	"rcsp_func_cmd_common.h"
+	"rcsp_function.h"
+	"rcsp_config.h"
+	"rcsp_event.h"
+	"app_action.h"
+	"rcsp_music_info_setting.h"
+	"btstack/avctp_user.h"
+	"JL_rcsp_packet.h"
+	"key_event_deal.h"
+	"app_msg.h"
+	"rcsp_manage.h"
+	"rtc/alarm.h"
+	"tone_player.h"
+	"music_player.h"
+	"general_player.h"
+	"rcsp_browser.h"
+	"clock_cfg.h"
+	"linein/linein.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_rtc_func.h
+	"typedef.h"
+	"app_config.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\task_manager\rtc\alarm.h
+	"typedef.h"
+	"system/includes.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\apps\common\music\general_player.h
+	"system/app_core.h"
+	"system/includes.h"
+	"system/event.h"
+	"dev_manager.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\device_info\rcsp_feature.c
+	"rcsp_config.h"
+	"rcsp_feature.h"
+	"btstack/avctp_user.h"
+	"rcsp_event.h"
+	"custom_cfg.h"
+	"JL_rcsp_packet.h"
+	"rcsp_extra_flash_opt.h"
+	"app_task.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_extra_flash_opt.h
+	"typedef.h"
+	"system/event.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\device_info\rcsp_function.c
+	"rcsp_config.h"
+	"rcsp_function.h"
+	"rcsp.h"
+	"rcsp_event.h"
+	"rcsp_func_cmd_common.h"
+	"ble_rcsp_module.h"
+	"rcsp_setting_opt.h"
+	"dev_manager.h"
+	"btstack/avctp_user.h"
+	"app_task.h"
+	"fm_emitter/fm_emitter_manage.h"
+	"adv_anc_voice.h"
+	"adv_hearing_aid_setting.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_setting_opt.h
+	"system/includes.h"
+
+1669876547 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\fm_emitter\fm_emitter_manage.h
+	"printf.h"
+	"cpu.h"
+	"asm/iic_hw.h"
+	"asm/iic_soft.h"
+	"timer.h"
+	"app_config.h"
+	"event.h"
+	"system/includes.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\adv_anc_voice.h
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\external_flash\rcsp_extra_flash_cmd.c
+	"rcsp_config.h"
+	"rcsp_function.h"
+	"rcsp.h"
+	"rcsp_event.h"
+	"rcsp_extra_flash_cmd.h"
+	"rcsp_extra_flash_opt.h"
+	"ble_rcsp_module.h"
+	"rcsp_setting_opt.h"
+	"rcsp_manage.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\file_transfer\dev_format.c
+	"dev_format.h"
+	"rcsp.h"
+	"fs/fs.h"
+	"system/fs/fs.h"
+	"dev_manager.h"
+
+1693750972 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\bt\bt.c
+	"system/includes.h"
+	"media/includes.h"
+	"app_config.h"
+	"app_task.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"btstack/btstack_error.h"
+	"btctrler/btctrler_task.h"
+	"classic/hci_lmp.h"
+	"bt_tws.h"
+	"bt_ble.h"
+	"bt.h"
+	"vol_sync.h"
+	"bt_emitter.h"
+	"bt_common.h"
+	"aec_user.h"
+	"math.h"
+	"spp_user.h"
+	"app_chargestore.h"
+	"app_charge.h"
+	"app_main.h"
+	"app_power_manage.h"
+	"user_cfg.h"
+	"asm/pwm_led.h"
+	"asm/timer.h"
+	"asm/hwi.h"
+	"cpu.h"
+	"ui/ui_api.h"
+	"ui_manage.h"
+	"ui/ui_style.h"
+	"key_event_deal.h"
+	"clock_cfg.h"
+	"gSensor/gSensor_manage.h"
+	"soundcard/soundcard.h"
+	"audio_dec.h"
+	"tone_player.h"
+	"dac.h"
+	"soundbox.h"
+	"le_client_demo.h"
+	"le_multi_common.h"
+	"app_protocol_api.h"
+	"app_broadcast.h"
+	"io_led.h"
+	"gsensor.h"
+	"qlhktapp.h"
+	"ohr_drv_afe.h"
+	"debug.h"
+
+1669876552 d:\jl\jl701n_soundbox\qlsdk\apps\common\third_party_profile\interface\app_protocol_api.h
+	<string.h>
+	<stdint.h>
+	"typedef.h"
+	"os/os_api.h"
+	"btstack/third_party/app_protocol_event.h"
+	"app_protocol_common.h"
+
+1669876568 d:\jl\jl701n_soundbox\qlsdk\include_lib\btstack\third_party\app_protocol_event.h
+	<string.h>
+	<stdint.h>
+	"typedef.h"
+
+1669876552 d:\jl\jl701n_soundbox\qlsdk\apps\common\third_party_profile\interface\app_protocol_common.h
+	<string.h>
+	<stdint.h>
+	"typedef.h"
+	"tone_player.h"
+	"audio_base.h"
+	"system/event.h"
+
+1691291684 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\io_led.h
+	"typedef.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\file_transfer\file_bluk_trans_prepare.c
+	"file_bluk_trans_prepare.h"
+	"rcsp.h"
+	"system/includes.h"
+	"file_operate/file_manager.h"
+
+1691028956 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\file_transfer\file_delete.c
+	"file_delete.h"
+	"rcsp.h"
+	"includes.h"
+	"fs/fs.h"
+	"btstack_3th_protocol_user.h"
+	"dev_manager.h"
+	"key_event_deal.h"
+	"app_task.h"
+	"app_task.h"
+	"app_msg.h"
+	"clock_cfg.h"
+	"file_operate/file_manager.h"
+	"rcsp_browser.h"
+	"music/music_player.h"
+	"bt.h"
+	"common/dev_status.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\common\dev_status.h
+	"typedef.h"
+	"system/includes.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\file_transfer\file_env_prepare.c
+	"file_env_prepare.h"
+	"rcsp.h"
+	"system/includes.h"
+	"clock_cfg.h"
+	"file_operate/file_manager.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\file_transfer\file_simple_transfer.c
+	"rcsp_config.h"
+	"file_simple_transfer.h"
+	"btstack_3th_protocol_user.h"
+	"system/includes.h"
+	"fs/fs.h"
+	"dev_manager.h"
+	"ui_vm/ui_vm.h"
+	"message_vm_cfg.h"
+
+1669876571 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\ui\ui_vm\ui_vm.h
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\file_transfer\file_trans_back.c
+	"file_trans_back.h"
+	"rcsp.h"
+	"system/includes.h"
+	"clock_cfg.h"
+	"file_operate/file_manager.h"
+	"rcsp_browser.h"
+	"fs/fs.h"
+	"rcsp_manage.h"
+	"rcsp_event.h"
+	"rcsp_config.h"
+	"JL_rcsp_protocol.h"
+	"JL_rcsp_packet.h"
+	"common/dev_status.h"
+
+1693537841 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\bt\bt_event_fun.c
+	"system/includes.h"
+	"media/includes.h"
+	"app_config.h"
+	"app_task.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"btstack/btstack_error.h"
+	"btctrler/btctrler_task.h"
+	"classic/hci_lmp.h"
+	"bt_tws.h"
+	"bt_ble.h"
+	"bt.h"
+	"vol_sync.h"
+	"bt_emitter.h"
+	"bt_common.h"
+	"aec_user.h"
+	"soundbox.h"
+	"math.h"
+	"spp_user.h"
+	"app_chargestore.h"
+	"app_charge.h"
+	"app_main.h"
+	"app_power_manage.h"
+	"user_cfg.h"
+	"asm/pwm_led.h"
+	"asm/timer.h"
+	"asm/hwi.h"
+	"cpu.h"
+	"ui/ui_api.h"
+	"ui_manage.h"
+	"ui/ui_style.h"
+	"key_event_deal.h"
+	"clock_cfg.h"
+	"gSensor/gSensor_manage.h"
+	"soundcard/soundcard.h"
+	"audio_dec.h"
+	"tone_player.h"
+	"dac.h"
+	"audio_recorder_mix.h"
+	"bt_vartual_fast_connect.h"
+	"broadcast_api.h"
+	"app_broadcast.h"
+	"broadcast_audio_sync.h"
+	"rcsp_function.h"
+	"debug.h"
+
+1669876559 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_enc\audio_recorder_mix.h
+	"system/includes.h"
+	"media/includes.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\file_transfer\file_transfer.c
+	"file_transfer.h"
+	"system/includes.h"
+	"fs/fs.h"
+	"btstack_3th_protocol_user.h"
+	"dev_manager.h"
+	"rcsp_browser.h"
+	"rcsp_config.h"
+
+1688528438 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_adv_bluetooth.c
+	"rcsp_config.h"
+	"ble_rcsp_module.h"
+	"rcsp_adv_bluetooth.h"
+	"rcsp_setting_opt.h"
+	"rcsp_setting_sync.h"
+	"custom_cfg.h"
+	"btstack/avctp_user.h"
+	"rcsp_manage.h"
+	"rcsp_music_info_setting.h"
+	"rcsp_bt_manage.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_setting_sync.h
+	"classic/tws_api.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\adv_anc_voice.c
+	"app_config.h"
+	"syscfg_id.h"
+	"user_cfg_id.h"
+	"adv_anc_voice.h"
+	"rcsp_setting_sync.h"
+	"audio_anc.h"
+
+1669876567 d:\jl\jl701n_soundbox\qlsdk\cpu\br28\audio_anc.h
+	"generic/typedef.h"
+	"asm/anc.h"
+	"anc_btspp.h"
+	"anc_uart.h"
+	"app_config.h"
+	"in_ear_detect/in_ear_manage.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\media\media_develop\media\anc_uart.h
+	"generic/typedef.h"
+	"generic/circular_buf.h"
+	"system/includes.h"
+
+1669876550 d:\jl\jl701n_soundbox\qlsdk\apps\common\device\in_ear_detect\in_ear_manage.h
+	"typedef.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\adv_anc_voice_key.c
+	"app_config.h"
+	"syscfg_id.h"
+	"user_cfg_id.h"
+	"ble_rcsp_module.h"
+	"rcsp_setting_sync.h"
+	"rcsp_setting_opt.h"
+	"adv_anc_voice_key.h"
+	"adv_anc_voice.h"
+	"audio_anc.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\adv_anc_voice_key.h
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\adv_bt_name_setting.c
+	"app_config.h"
+	"user_cfg.h"
+	"syscfg_id.h"
+	"ble_rcsp_module.h"
+	"rcsp_setting_opt.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\adv_hearing_aid_setting.c
+	"adv_hearing_aid_setting.h"
+	"spp_user.h"
+	"rcsp_setting_sync.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\adv_key_setting.c
+	"app_config.h"
+	"syscfg_id.h"
+	"key_event_deal.h"
+	"ble_rcsp_module.h"
+	"rcsp_setting_sync.h"
+	"rcsp_setting_opt.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\adv_led_setting.c
+	"app_config.h"
+	"syscfg_id.h"
+	"user_cfg.h"
+	"ble_rcsp_module.h"
+	"rcsp_setting_sync.h"
+	"rcsp_setting_opt.h"
+	"asm/pwm_led.h"
+	"ui_manage.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\adv_mic_setting.c
+	"app_config.h"
+	"syscfg_id.h"
+	"ble_rcsp_module.h"
+	"adv_mic_setting.h"
+	"rcsp_setting_sync.h"
+	"rcsp_setting_opt.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\adv_mic_setting.h
+
+1691028950 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\external_flash\rcsp_extra_flash_opt.c
+	"rcsp_config.h"
+	"ble_rcsp_module.h"
+	"rcsp_update.h"
+	"rcsp_extra_flash_opt.h"
+	"rcsp_extra_flash_cmd.h"
+	"norflash.h"
+	"syscfg_id.h"
+	"update.h"
+	"rcsp_task.h"
+	"ui/ui_api.h"
+	"ui/res_config.h"
+
+1669876557 d:\jl\jl701n_soundbox\qlsdk\apps\common\include\norflash.h
+	"device/device.h"
+	"ioctl_cmds.h"
+	"asm/spi.h"
+	"printf.h"
+	"gpio.h"
+	"device_drive.h"
+	"malloc.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\system\device\device_drive.h
+	"typedef.h"
+	"errno-base.h"
+	"ioctl.h"
+	"os/os_api.h"
+	<pthread.h>
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\update\update.h
+	"typedef.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\ui\res_config.h
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\adv_time_stamp_setting.c
+	"rcsp_config.h"
+	"syscfg_id.h"
+	"ble_rcsp_module.h"
+	"adv_time_stamp_setting.h"
+	"rcsp_setting_sync.h"
+	"rcsp_setting_opt.h"
+	"rcsp_adv_bluetooth.h"
+	"rcsp_manage.h"
+	"rcsp_bt_manage.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\adv_time_stamp_setting.h
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\adv_work_setting.c
+	"app_config.h"
+	"syscfg_id.h"
+	"ble_rcsp_module.h"
+	"rcsp_setting_sync.h"
+	"rcsp_setting_opt.h"
+	"os/os_api.h"
+	"btstack/avctp_user.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\rcsp_eq_setting.c
+	"app_config.h"
+	"syscfg_id.h"
+	"ble_rcsp_module.h"
+	"rcsp_setting_sync.h"
+	"rcsp_setting_opt.h"
+	"media/eq_config.h"
+	"audio_eq.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\rcsp_high_low_vol_setting.c
+	"app_config.h"
+	"syscfg_id.h"
+	"rcsp_setting_sync.h"
+	"rcsp_setting_opt.h"
+	"ble_rcsp_module.h"
+	"JL_rcsp_protocol.h"
+	"audio_dec.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\rcsp_karaoke_eq_setting.c
+	"app_config.h"
+	"syscfg_id.h"
+	"ble_rcsp_module.h"
+	"rcsp_setting_sync.h"
+	"rcsp_setting_opt.h"
+	"effect_cfg.h"
+	"effect_tool.h"
+	"mic_effect.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\rcsp_karaoke_setting.c
+	"rcsp_config.h"
+	"syscfg_id.h"
+	"ble_rcsp_module.h"
+	"rcsp_setting_sync.h"
+	"rcsp_setting_opt.h"
+	"rcsp_function.h"
+	"key_event_deal.h"
+	"mic_effect.h"
+	"JL_rcsp_packet.h"
+	"soundcard/soundcard.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\rcsp_misc_setting\rcsp_misc_drc_setting.c
+	"app_config.h"
+	"syscfg_id.h"
+	"rcsp_misc_setting.h"
+	"ble_rcsp_module.h"
+	"audio_dec.h"
+
+1669876556 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_misc_setting.h
+	"system/includes.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\rcsp_color_led_setting.c
+	"app_config.h"
+	"syscfg_id.h"
+	"user_cfg.h"
+	"ble_rcsp_module.h"
+	"rcsp_setting_sync.h"
+	"rcsp_setting_opt.h"
+	"ui_manage.h"
+	"asm/pwm_led.h"
+	"color_led_app.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\ui\color_led\color_led_app.h
+	"color_led_driver.h"
+	"color_led.h"
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\ui\color_led\color_led_driver.h
+
+1669876548 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\include\ui\color_led\color_led.h
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\rcsp_misc_setting\rcsp_misc_reverbration_setting.c
+	"app_config.h"
+	"syscfg_id.h"
+	"rcsp_setting_opt.h"
+	"rcsp_misc_setting.h"
+	"ble_rcsp_module.h"
+	"mic_effect.h"
+	"key_event_deal.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\rcsp_misc_setting\rcsp_misc_setting.c
+	"app_config.h"
+	"syscfg_id.h"
+	"rcsp_misc_setting.h"
+	"rcsp_setting_sync.h"
+	"rcsp_setting_opt.h"
+	"ble_rcsp_module.h"
+	"rcsp_config.h"
+	"rcsp_function.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\rcsp_music_info_setting.c
+	"rcsp_config.h"
+	"syscfg_id.h"
+	"ble_rcsp_module.h"
+	"rcsp_adv_bluetooth.h"
+	"rcsp_setting_sync.h"
+	"rcsp_setting_opt.h"
+	"rcsp_music_info_setting.h"
+	"rcsp_bt_manage.h"
+	"btstack/avctp_user.h"
+	"bt_tws.h"
+
+1688457017 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting\rcsp_vol_setting.c
+	"rcsp_config.h"
+	"app_config.h"
+	"syscfg_id.h"
+	"rcsp_setting_sync.h"
+	"rcsp_setting_opt.h"
+	"ble_rcsp_module.h"
+	"rcsp_function.h"
+	"key_event_deal.h"
+	"audio_config.h"
+	"vol_sync.h"
+	"vol_sync.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting_opt.c
+	"rcsp_config.h"
+	"rcsp_setting_opt.h"
+	"rcsp_setting_sync.h"
+	"rcsp_manage.h"
+	"btstack/avctp_user.h"
+	"bt_tws.h"
+	"rcsp_bt_manage.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_setting_opt\rcsp_setting_sync.c
+	"app_config.h"
+	"rcsp_setting_sync.h"
+	"rcsp_setting_opt.h"
+	"adv_time_stamp_setting.h"
+	"rcsp_bt_manage.h"
+	"rcsp_manage.h"
+	"bt_tws.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_switch_device.c
+	"rcsp_config.h"
+	"rcsp_feature.h"
+	"btstack/avctp_user.h"
+	"rcsp_event.h"
+	"rcsp_manage.h"
+	"rcsp_bt_manage.h"
+	"rcsp_update.h"
+	"app_main.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_update\rcsp_ch_loader_download.c
+	"app_config.h"
+	"update.h"
+	"uart.h"
+	"update_loader_download.h"
+	"fs/fs.h"
+	"system/fs/fs.h"
+	"rcsp_update.h"
+	"JL_rcsp_protocol.h"
+	"classic/tws_api.h"
+	"os/os_api.h"
+	<string.h>
+	"rcsp_update_tws.h"
+	"bt_tws.h"
+	"debug.h"
+	"system/debug.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\update\update_loader_download.h
+	"typedef.h"
+	"system/task.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_update_tws.h
+	"app_config.h"
+	"system/event.h"
+	"update_loader_download.h"
+
+1688528471 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_update\rcsp_update.c
+	"app_config.h"
+	"rcsp_update.h"
+	"uart.h"
+	"system/timer.h"
+	"update.h"
+	"custom_cfg.h"
+	"btstack/avctp_user.h"
+	"rcsp_manage.h"
+	"rcsp_bt_manage.h"
+	"update_loader_download.h"
+	"btstack_3th_protocol_user.h"
+	"ble_rcsp_module.h"
+	"classic/tws_api.h"
+	"rcsp_task.h"
+	"rcsp_config.h"
+	"syscfg_id.h"
+	"rcsp_extra_flash_opt.h"
+	"rcsp_misc_setting.h"
+	"mic_effect.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\rcsp_update\rcsp_update_tws.c
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"generic/circular_buf.h"
+	"os/os_api.h"
+	"update_loader_download.h"
+	"system/task.h"
+	"system/timer.h"
+	"init.h"
+	"rcsp_update_tws.h"
+	"dual_bank_updata_api.h"
+	"bt_tws.h"
+	"app_config.h"
+	"btstack/avctp_user.h"
+	"update.h"
+	"app_main.h"
+	"debug.h"
+
+1669876570 d:\jl\jl701n_soundbox\qlsdk\include_lib\update\dual_bank_updata_api.h
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\nfc_data_opt.c
+	"rcsp_config.h"
+	"nfc_data_opt.h"
+	"rcsp_browser.h"
+	"rcsp_event.h"
+
+1669876554 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\nfc_data_opt.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sensor_log_notify.c
+	"rcsp_config.h"
+	"sensor_log_notify.h"
+
+1669876554 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sensors_data_opt.c
+	"sensors_data_opt.h"
+	"sport_data_func.h"
+	"sport_info_sync.h"
+	"nfc_data_opt.h"
+	"sport_info_opt.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_data_func.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_info_sync.h
+	"typedef.h"
+	"app_config.h"
+
+1669876554 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_info_opt.h
+	"typedef.h"
+	"app_config.h"
+
+1669876554 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sport_data_func.c
+	"rcsp_config.h"
+	"sport_data_func.h"
+	"rcsp_event.h"
+	"rcsp_manage.h"
+	"sport_data_heart_rate.h"
+	"sport_data_air_pressure.h"
+	"sport_data_altitude.h"
+	"sport_data_blood_oxygen.h"
+	"sport_data_exercise_recovery_time.h"
+	"sport_data_exercise_steps.h"
+	"sport_data_max_oxygen_uptake.h"
+	"sport_data_pressure_detection.h"
+	"sport_data_sports_information.h"
+	"sport_data_training_load.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_data_heart_rate.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_data_air_pressure.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_data_altitude.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_data_blood_oxygen.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_data_exercise_recovery_time.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_data_exercise_steps.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_data_max_oxygen_uptake.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_data_pressure_detection.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_data_sports_information.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_data_training_load.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sport_data_info_opt\sport_info_bt_disconn.c
+	"rcsp_config.h"
+	"sport_info_opt.h"
+	"rcsp_event.h"
+	"rcsp_manage.h"
+	"sport_info_bt_disconn.h"
+
+1669876554 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_info_bt_disconn.h
+	"typedef.h"
+	"app_config.h"
+
+1669876554 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sport_data_info_opt\sport_info_continuous_heart_rate.c
+	"rcsp_config.h"
+	"sport_info_opt.h"
+	"rcsp_event.h"
+	"rcsp_manage.h"
+	"sport_info_continuous_heart_rate.h"
+	"sport_data/detection_response.h"
+	"watch_common.h"
+
+1669876554 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_info_continuous_heart_rate.h
+	"typedef.h"
+	"app_config.h"
+
+1669876554 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sport_data_info_opt\sport_info_exercise_heart_rate.c
+	"rcsp_config.h"
+	"sport_info_opt.h"
+	"rcsp_event.h"
+	"rcsp_manage.h"
+	"sport_info_exercise_heart_rate.h"
+	"watch_common.h"
+	"sport_data/detection_response.h"
+
+1669876554 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_info_exercise_heart_rate.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sport_data_info_opt\sport_info_fall_detection.c
+	"rcsp_config.h"
+	"sport_info_opt.h"
+	"rcsp_event.h"
+	"rcsp_manage.h"
+	"sport_info_fall_detection.h"
+	"sport_data/detection_response.h"
+	"watch_common.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_info_fall_detection.h
+	"typedef.h"
+	"app_config.h"
+
+1669876554 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sport_data_info_opt\sport_info_personal_info.c
+	"rcsp_config.h"
+	"sport_info_opt.h"
+	"rcsp_event.h"
+	"rcsp_manage.h"
+	"sport_info_personal_info.h"
+	"sport_data/watch_common.h"
+
+1669876554 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_info_personal_info.h
+	"typedef.h"
+	"app_config.h"
+
+1669876554 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sport_data_info_opt\sport_info_pressure_detection.c
+	"rcsp_config.h"
+	"sport_info_opt.h"
+	"rcsp_event.h"
+	"rcsp_manage.h"
+	"sport_info_pressure_detection.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_info_pressure_detection.h
+	"typedef.h"
+	"app_config.h"
+
+1669876554 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sport_data_info_opt\sport_info_raise_wrist.c
+	"rcsp_config.h"
+	"sport_info_opt.h"
+	"rcsp_event.h"
+	"rcsp_manage.h"
+	"sport_info_raise_wrist.h"
+	"watch_common.h"
+	"sport_data/detection_response.h"
+
+1669876554 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_info_raise_wrist.h
+	"typedef.h"
+	"app_config.h"
+
+1669876554 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sport_data_info_opt\sport_info_sedentary.c
+	"rcsp_config.h"
+	"sport_info_opt.h"
+	"rcsp_event.h"
+	"rcsp_manage.h"
+	"sport_info_sedentary.h"
+	"watch_common.h"
+	"sport_data/detection_response.h"
+
+1669876554 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_info_sedentary.h
+	"typedef.h"
+	"app_config.h"
+
+1669876554 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sport_data_info_opt\sport_info_sensor_opt.c
+	"rcsp_config.h"
+	"sport_info_opt.h"
+	"rcsp_event.h"
+	"rcsp_manage.h"
+	"sport_info_sensor_opt.h"
+	"sport_data/watch_common.h"
+
+1669876554 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_info_sensor_opt.h
+	"typedef.h"
+	"app_config.h"
+
+1669876554 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sport_data_info_opt\sport_info_sleep_detection.c
+	"rcsp_config.h"
+	"sport_info_opt.h"
+	"rcsp_event.h"
+	"rcsp_manage.h"
+	"sport_info_sleep_detection.h"
+	"watch_common.h"
+	"sport_data/detection_response.h"
+
+1669876555 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\sport_info_sleep_detection.h
+	"typedef.h"
+	"app_config.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sport_info_opt.c
+	"rcsp_config.h"
+	"sport_info_opt.h"
+	"rcsp_event.h"
+	"rcsp_manage.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sport_info_sync.c
+	"rcsp_config.h"
+	"sport_info_sync.h"
+	"rcsp_event.h"
+	"rcsp_manage.h"
+	"sport/sport_api.h"
+	"sport_data/watch_common.h"
+	"ui/ui_style.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sports_data_opt\sport_data_air_pressure.c
+	"rcsp_config.h"
+	"sport_data_air_pressure.h"
+	"sport_data_func.h"
+	"sport_data/altitude_presure.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sports_data_opt\sport_data_altitude.c
+	"rcsp_config.h"
+	"sport_data_altitude.h"
+	"sport_data_func.h"
+	"sport_data/altitude_presure.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sports_data_opt\sport_data_blood_oxygen.c
+	"rcsp_config.h"
+	"sport_data_blood_oxygen.h"
+	"sport_data_func.h"
+	"sport_data/watch_common.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sports_data_opt\sport_data_exercise_recovery_time.c
+	"rcsp_config.h"
+	"sport_data_exercise_recovery_time.h"
+	"sport_data_func.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sports_data_opt\sport_data_exercise_steps.c
+	"rcsp_config.h"
+	"sport_data_exercise_steps.h"
+	"sport_data_func.h"
+	"sport_data/watch_common.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sports_data_opt\sport_data_heart_rate.c
+	"rcsp_config.h"
+	"sport_data_heart_rate.h"
+	"sport_data_func.h"
+	"sport_data/watch_common.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sports_data_opt\sport_data_max_oxygen_uptake.c
+	"rcsp_config.h"
+	"sport_data_max_oxygen_uptake.h"
+	"sport_data_func.h"
+
+1688442293 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sport_info_vm.c
+	"rcsp_config.h"
+	"sport_info_opt.h"
+	"rcsp_event.h"
+	"rcsp_manage.h"
+	"sport_info_exercise_heart_rate.h"
+	"sport_info_fall_detection.h"
+	"sport_info_personal_info.h"
+	"sport_info_raise_wrist.h"
+	"sport_info_sedentary.h"
+	"sport_info_sleep_detection.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sports_data_opt\sport_data_pressure_detection.c
+	"rcsp_config.h"
+	"sport_data_pressure_detection.h"
+	"sport_data_func.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sports_data_opt\sport_data_sports_information.c
+	"rcsp_config.h"
+	"sport_data_sports_information.h"
+	"sport_data_func.h"
+	"sport_data/watch_common.h"
+
+1669876555 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\function_modules\sensors_data_opt\sports_data_opt\sport_data_training_load.c
+	"rcsp_config.h"
+	"sport_data_training_load.h"
+	"sport_data_func.h"
+
+1669876554 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\rcsp_cmd_user.c
+	"rcsp_cmd_user.h"
+
+1669876554 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\cmd_data_deal\rcsp_command.c
+	"rcsp_config.h"
+	"rcsp_command.h"
+	"btstack/avctp_user.h"
+	"rcsp_event.h"
+	"system/timer.h"
+	"ble_rcsp_module.h"
+	"rcsp_manage.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_tws.h"
+	"rcsp_bt_manage.h"
+	"app_tone.h"
+	"tone_player.h"
+	"dac.h"
+
+1669876553 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\rcsp_command.h
+	"typedef.h"
+	"app_config.h"
+
+1669876556 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\rcsp.c
+	"rcsp.h"
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	"string.h"
+	"system/timer.h"
+	"app_core.h"
+	"spp_user.h"
+	"app_task.h"
+	"system/task.h"
+	"rcsp_config.h"
+	"rcsp_event.h"
+	"btstack_3th_protocol_user.h"
+	"rcsp_manage.h"
+	"rcsp_setting_opt.h"
+
+1688528518 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\rcsp_functions\rcsp_bt_manage.c
+	"system/event.h"
+	"rcsp_bt_manage.h"
+	"rcsp_config.h"
+	"rcsp.h"
+	"rcsp_update.h"
+	"rcsp_function.h"
+	"rcsp_setting_sync.h"
+	"app_main.h"
+	"adv_mic_setting.h"
+	"rcsp_update_tws.h"
+	"3th_profile_api.h"
+	"adv_time_stamp_setting.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_tws.h"
+	"ble_rcsp_adv.h"
+	"ble_rcsp_module.h"
+	"earphone.h"
+	"debug.h"
+
+1688528530 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\rcsp_functions\rcsp_config.c
+	"rcsp_config.h"
+	"le_common.h"
+	"rcsp_event.h"
+	"ble_rcsp_adv.h"
+	"ble_rcsp_module.h"
+	"custom_cfg.h"
+	"rcsp_adv_bluetooth.h"
+
+1669876552 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\rcsp_functions\rcsp_event.c
+	"rcsp_config.h"
+	"rcsp_event.h"
+	"rcsp.h"
+	"btstack/btstack_task.h"
+	"btstack/avctp_user.h"
+	"rcsp_function.h"
+	"fm_emitter/fm_emitter_manage.h"
+	"app_task.h"
+	"key_event_deal.h"
+	"audio_config.h"
+	"rcsp_misc_setting.h"
+
+1669876553 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\rcsp_functions\rcsp_manage.c
+	"rcsp_config.h"
+	"app_main.h"
+	"rcsp_update_tws.h"
+	"3th_profile_api.h"
+	"btstack/avctp_user.h"
+	"btstack/btstack_task.h"
+	"bt_tws.h"
+	"rcsp_manage.h"
+	"ble_rcsp_module.h"
+	"rcsp_setting_opt.h"
+	"rcsp_adv_bluetooth.h"
+	"rcsp.h"
+	"rcsp_function.h"
+	"rcsp_music_info_setting.h"
+	"rcsp_bt_manage.h"
+	"rcsp_update.h"
+	"JL_rcsp_protocol.h"
+	"rcsp_extra_flash_opt.h"
+	"file_transfer.h"
+	"file_bluk_trans_prepare.h"
+	"custom_cfg.h"
+	"system/event.h"
+	"debug.h"
+
+1691028964 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\rcsp\rcsp_functions\rcsp_task.c
+	"rcsp_task.h"
+	"rcsp.h"
+	"rcsp_extra_flash_opt.h"
+	"file_transfer.h"
+	"file_delete.h"
+	"dev_format.h"
+	"clock_cfg.h"
+	"app_task.h"
+	"btstack/avctp_user.h"
+	"file_bluk_trans_prepare.h"
+	"sport_data_func.h"
+	"ble_rcsp_module.h"
+	"app_task.h"
+	"timer.h"
+
+1688458699 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\trans_data_demo\le_trans_data.c
+	"system/app_core.h"
+	"system/includes.h"
+	"app_config.h"
+	"app_action.h"
+	"btstack/btstack_task.h"
+	"btstack/bluetooth.h"
+	"user_cfg.h"
+	"vm.h"
+	"btcontroller_modules.h"
+	"bt_common.h"
+	"3th_profile_api.h"
+	"le_trans_data.h"
+	"le_common.h"
+	"JL_rcsp_api.h"
+	"custom_cfg.h"
+	"btstack/btstack_event.h"
+	"rcsp_bluetooth.h"
+
+1669876552 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\le_trans_data.h
+	<stdint.h>
+	"app_config.h"
+
+1669876552 source:d:\jl\jl701n_soundbox\qlsdk\bt_lib\trans_data_demo\spp_trans_data.c
+	"app_config.h"
+	"app_action.h"
+	"system/includes.h"
+	"spp_user.h"
+	"string.h"
+	"circular_buf.h"
+	"spp_trans_data.h"
+	"bt_common.h"
+	"btstack/avctp_user.h"
+	"spp_trans_data.h"
+
+1669876552 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\spp_trans_data.h
+	"typedef.h"
+	"bt_common.h"
+
+1689087550 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\gsensor.h
+	"printf.h"
+	"cpu.h"
+	"timer.h"
+	"app_config.h"
+	"event.h"
+	"system/includes.h"
+	"device/device.h"
+	"ioctl_cmds.h"
+	"asm/spi.h"
+	"printf.h"
+	"gpio.h"
+	"device_drive.h"
+	"malloc.h"
+
+1691289368 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\qlapp\qlhktapp.h
+	"system/includes.h"
+	"app_config.h"
+
+1693644632 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\qlapp\ohr_drv_afe.h
+	"app_config.h"
+	"system/includes.h"
+	"types.h"
+	"ohr_i2c_driver.h"
+
+1584343796 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\types.h
+	"stdint.h"
+
+1692696992 d:\jl\jl701n_soundbox\qlsdk\apps\soundbox\qlapp\ohr_i2c_driver.h
+	"system/includes.h"
+	"app_config.h"
+
+1693749676 d:\jl\jl701n_soundbox\qlsdk\include_lib\app\ohrdrive.h
+	"types.h"
+

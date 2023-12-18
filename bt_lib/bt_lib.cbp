@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="bt_lib" />
+		<Option pch_mode="2" />
+		<Option compiler="pi32v2_r3_large_lto_compiler" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bt_libbin/Debug/bt_lib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="bt_libobj/Debug/" />
+				<Option type="2" />
+				<Option compiler="pi32v2_r3_large_lto_compiler" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-flto" />
+					<Add option="-Wundef" />
+					<Add option="-w" />
+					<Add option="-g" />
+					<Add option="-Wuninitialized" />
+					<Add option="-Wno-invalid-noreturn" />
+					<Add option="-fno-common" />
+					<Add option="-integrated-as" />
+					<Add option="-Oz" />
+					<Add option="-fallow-pointer-null" />
+					<Add option="-fprefer-gnu-section" />
+					<Add option="-Wno-shift-negative-value" />
+					<Add option="-Wframe-larger-than=256" />
+					<Add option="-Wincompatible-pointer-types" />
+					<Add option="-Wreturn-type" />
+					<Add option="-Wimplicit-function-declaration" />
+					<Add option="-mllvm -pi32v2-large-program=true" />
+					<Add option="-fms-extensions" />
+					<Add option="-fdiscrete-bitfield-abi" />
+					<Add option="-DSUPPORT_MS_EXTENSIONS" />
+					<Add option="-DCONFIG_RELEASE_ENABLE" />
+					<Add option="-DCONFIG_CPU_BR28" />
+					<Add option="-DCONFIG_PRINT_IN_MASK" />
+					<Add option="-DCONFIG_NEW_BREDR_ENABLE" />
+					<Add option="-DCONFIG_NEW_MODEM_ENABLE" />
+					<Add option="-DCONFIG_NEW_TWS_FORWARD_ENABLE" />
+					<Add option="-DCONFIG_UCOS_ENABLE" />
+					<Add option="-DCONFIG_EQ_SUPPORT_ASYNC" />
+					<Add option="-DEQ_CORE_V1" />
+					<Add option="-DCONFIG_AAC_CODEC_FFT_USE_MUTEX" />
+					<Add option="-DCONFIG_DNS_ENABLE" />
+					<Add option="-DCONFIG_DMS_MALLOC" />
+					<Add option="-DCONFIG_MMU_ENABLE" />
+					<Add option="-DCONFIG_SBC_CODEC_HW" />
+					<Add option="-DCONFIG_MSBC_CODEC_HW" />
+					<Add option="-DCONFIG_AEC_M=256" />
+					<Add option="-DCONFIG_SUPPORT_WIFI_DETECT" />
+					<Add option="-DCONFIG_AUDIO_ONCHIP" />
+					<Add option="-DCONFIG_MEDIA_DEVELOP_ENABLE" />
+					<Add option="-DCONFIG_MIXER_CYCLIC" />
+					<Add option="-DCONFIG_SOUND_PLATFORM_ENABLE=1" />
+					<Add option="-DCONFIG_SUPPORT_EX_TWS_ADJUST" />
+					<Add option="-D__GCC_PI32V2__" />
+					<Add option="-DCONFIG_NEW_ECC_ENABLE" />
+					<Add option="-DCONFIG_MAC_ADDR_GET_USED_SFC" />
+					<Add option="-DSUPPORT_BLUETOOTH_PROFILE_RELEASE" />
+					<Add option="-DCONFIG_SOUNDBOX" />
+					<Add option="-DCONFIG_OS_AFFINITY_ENABLE" />
+					<Add option="-DEVENT_HANDLER_NUM_CONFIG=2" />
+					<Add option="-DEVENT_TOUCH_ENABLE_CONFIG=0" />
+					<Add option="-DEVENT_POOL_SIZE_CONFIG=256" />
+					<Add option="-DCONFIG_EVENT_KEY_MAP_ENABLE=0" />
+					<Add option="-DTIMER_POOL_NUM_CONFIG=15" />
+					<Add option="-DAPP_ASYNC_POOL_NUM_CONFIG=0" />
+					<Add option="-DVFS_ENABLE=1" />
+					<Add option="-DUSE_SDFILE_NEW=1" />
+					<Add option="-DSDFILE_STORAGE=1" />
+					<Add option="-DVFS_FILE_POOL_NUM_CONFIG=1" />
+					<Add option="-DFS_VERSION=0x020001" />
+					<Add option="-DFATFS_VERSION=0x020101" />
+					<Add option="-DSDFILE_VERSION=0x020000" />
+					<Add option="-DVM_MAX_PAGE_ALIGN_SIZE_CONFIG=64*1024" />
+					<Add option="-DVM_MAX_SECTOR_ALIGN_SIZE_CONFIG=64*1024" />
+					<Add option="-DVM_ITEM_MAX_NUM=256" />
+					<Add option="-DCONFIG_TWS_ENABLE" />
+					<Add option="-DCONFIG_SOUNDBOX_CASE_ENABLE" />
+					<Add option="-DCONFIG_NEW_CFG_TOOL_ENABLE" />
+					<Add option="-DCONFIG_LITE_AEC_ENABLE=0" />
+					<Add option="-DAUDIO_REC_POOL_NUM=1" />
+					<Add option="-DAUDIO_DEC_POOL_NUM=3" />
+					<Add option="-DCONFIG_LMP_CONN_SUSPEND_ENABLE" />
+					<Add option="-DCONFIG_BTCTRLER_TASK_DEL_ENABLE" />
+					<Add option="-DCONFIG_LINK_DISTURB_SCAN_ENABLE=0" />
+					<Add option="-DCONFIG_UPDATA_ENABLE" />
+					<Add option="-DCONFIG_OTA_UPDATA_ENABLE" />
+					<Add option="-DCONFIG_EFFECT_CORE_V2_ENABLE" />
+					<Add option="-DCONFIG_ITEM_FORMAT_VM" />
+					<Add option="-D__LD__" />
+					<Add directory="../../qlsdk" />
+					<Add directory="../include_lib" />
+					<Add directory="../include_lib/driver/cpu/br28" />
+					<Add directory="../include_lib/system" />
+					<Add directory="../include_lib/system/generic" />
+					<Add directory="../include_lib/driver" />
+					<Add directory="../include_lib/driver/device" />
+					<Add directory="../include_lib/app" />
+					<Add directory="../include_lib/media/media_develop" />
+					<Add directory="../apps/common/device/usb" />
+					<Add directory="../include_lib/media/media_develop/media/cpu/br28" />
+					<Add directory="../include_lib/btctrler" />
+					<Add directory="../include_lib/media/media_develop/media" />
+					<Add directory="../apps/soundbox/include" />
+					<Add directory="../include_lib/system/device" />
+					<Add directory="../apps/common/include" />
+					<Add directory="../include_lib/btstack/third_party/common" />
+					<Add directory="../apps/common/audio" />
+					<Add directory="../cpu/br28" />
+					<Add directory="../apps/common" />
+					<Add directory="../apps/common/dev_manager" />
+					<Add directory="../include_lib/media/media_develop/media/cpu/br28/asm" />
+					<Add directory="../include_lib/media" />
+					<Add directory="../include_lib/system/ui/ui/cpu/br28" />
+					<Add directory="../include_lib/system/ui" />
+					<Add directory="../apps/soundbox/include/broadcast" />
+					<Add directory="../apps/common/device" />
+					<Add directory="../cpu/br28/audio_dec" />
+					<Add directory="../cpu/br28/audio_mic" />
+					<Add directory="../include_lib/btctrler/port/br28" />
+					<Add directory="../apps/common/wireless_dev_manager" />
+					<Add directory="../include_lib/btstack/third_party/broadcast" />
+					<Add directory="../apps/common/third_party_profile/common" />
+					<Add directory="../include_lib/btstack/third_party/rcsp" />
+					<Add directory="../apps/common/third_party_profile/jieli/online_db" />
+					<Add directory="../include_lib/system/fs" />
+					<Add directory="../apps/soundbox/include/task_manager" />
+					<Add directory="../apps/common/music" />
+					<Add directory="../cpu/br28/audio_enc" />
+					<Add directory="../apps/common/third_party_profile/interface" />
+					<Add directory="../include_lib/update" />
+					<Add directory="../apps/soundbox/include/ui/color_led" />
+					<Add directory="../apps/soundbox/qlapp" />
+				</Compiler>
+				<Linker>
+					<Add option="-flto" />
+					<Add option="--plugin-opt=-pi32v2-always-use-itblock=false" />
+					<Add option="--plugin-opt=-enable-ipra=true" />
+					<Add option="--plugin-opt=-pi32v2-merge-max-offset=4096" />
+					<Add option="--plugin-opt=-pi32v2-enable-simd=true" />
+					<Add option="--plugin-opt=mcpu=r3" />
+					<Add option="--plugin-opt=-global-merge-on-const" />
+					<Add option="--plugin-opt=-inline-threshold=5" />
+					<Add option="--plugin-opt=-inline-max-allocated-size=32" />
+					<Add option="--plugin-opt=-inline-normal-into-special-section=true" />
+					<Add option="--plugin-opt=-dont-used-symbol-list=malloc,free,sprintf,printf,puts,putchar" />
+					<Add option="--plugin-opt=save-temps" />
+					<Add option="--plugin-opt=-pi32v2-enable-rep-memop" />
+					<Add option="--plugin-opt=-warn-stack-size=256" />
+					<Add option="--sort-common" />
+					<Add option="--plugin-opt=-used-symbol-file=cpu/br28/sdk_used_list.used" />
+					<Add option="--plugin-opt=-pi32v2-large-program=true" />
+					<Add option="--gc-sections" />
+					<Add option="--start-group" />
+					<Add option="cpu/br28/liba/libgsensor_lib.a" />
+					<Add option="cpu/br28/liba/btstack.a" />
+					<Add option="cpu/br28/liba/rcsp_stack.a" />
+					<Add option="cpu/br28/liba/btctrler.a" />
+					<Add option="cpu/br28/liba/bt_hash_enc.a" />
+					<Add option="cpu/br28/liba/bfilterfun_lib.a" />
+					<Add option="--end-group" />
+					<Add option="-Tcpu/br28/sdk.ld" />
+					<Add option="-M=cpu/br28/tools/sdk.map" />
+					<Add library="C:/JL/pi32/pi32v2-lib/r3-large/libm.a" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="downloadbt_lib.bat" />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="bt_libbin/Release/bt_lib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="bt_libobj/Release/" />
+				<Option type="2" />
+				<Option compiler="pi32v2_r3_large_lto_compiler" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-flto" />
+					<Add option="-Wundef" />
+					<Add option="-w" />
+					<Add option="-g" />
+					<Add option="-Wuninitialized" />
+					<Add option="-Wno-invalid-noreturn" />
+					<Add option="-fno-common" />
+					<Add option="-integrated-as" />
+					<Add option="-Oz" />
+					<Add option="-fallow-pointer-null" />
+					<Add option="-fprefer-gnu-section" />
+					<Add option="-Wno-shift-negative-value" />
+					<Add option="-Wframe-larger-than=256" />
+					<Add option="-Wincompatible-pointer-types" />
+					<Add option="-Wreturn-type" />
+					<Add option="-Wimplicit-function-declaration" />
+					<Add option="-mllvm -pi32v2-large-program=true" />
+					<Add option="-fms-extensions" />
+					<Add option="-fdiscrete-bitfield-abi" />
+					<Add option="-DSUPPORT_MS_EXTENSIONS" />
+					<Add option="-DCONFIG_RELEASE_ENABLE" />
+					<Add option="-DCONFIG_CPU_BR28" />
+					<Add option="-DCONFIG_PRINT_IN_MASK" />
+					<Add option="-DCONFIG_NEW_BREDR_ENABLE" />
+					<Add option="-DCONFIG_NEW_MODEM_ENABLE" />
+					<Add option="-DCONFIG_NEW_TWS_FORWARD_ENABLE" />
+					<Add option="-DCONFIG_UCOS_ENABLE" />
+					<Add option="-DCONFIG_EQ_SUPPORT_ASYNC" />
+					<Add option="-DEQ_CORE_V1" />
+					<Add option="-DCONFIG_AAC_CODEC_FFT_USE_MUTEX" />
+					<Add option="-DCONFIG_DNS_ENABLE" />
+					<Add option="-DCONFIG_DMS_MALLOC" />
+					<Add option="-DCONFIG_MMU_ENABLE" />
+					<Add option="-DCONFIG_SBC_CODEC_HW" />
+					<Add option="-DCONFIG_MSBC_CODEC_HW" />
+					<Add option="-DCONFIG_AEC_M=256" />
+					<Add option="-DCONFIG_SUPPORT_WIFI_DETECT" />
+					<Add option="-DCONFIG_AUDIO_ONCHIP" />
+					<Add option="-DCONFIG_MEDIA_DEVELOP_ENABLE" />
+					<Add option="-DCONFIG_MIXER_CYCLIC" />
+					<Add option="-DCONFIG_SOUND_PLATFORM_ENABLE=1" />
+					<Add option="-DCONFIG_SUPPORT_EX_TWS_ADJUST" />
+					<Add option="-D__GCC_PI32V2__" />
+					<Add option="-DCONFIG_NEW_ECC_ENABLE" />
+					<Add option="-DCONFIG_MAC_ADDR_GET_USED_SFC" />
+					<Add option="-DSUPPORT_BLUETOOTH_PROFILE_RELEASE" />
+					<Add option="-DCONFIG_SOUNDBOX" />
+					<Add option="-DCONFIG_OS_AFFINITY_ENABLE" />
+					<Add option="-DEVENT_HANDLER_NUM_CONFIG=2" />
+					<Add option="-DEVENT_TOUCH_ENABLE_CONFIG=0" />
+					<Add option="-DEVENT_POOL_SIZE_CONFIG=256" />
+					<Add option="-DCONFIG_EVENT_KEY_MAP_ENABLE=0" />
+					<Add option="-DTIMER_POOL_NUM_CONFIG=15" />
+					<Add option="-DAPP_ASYNC_POOL_NUM_CONFIG=0" />
+					<Add option="-DVFS_ENABLE=1" />
+					<Add option="-DUSE_SDFILE_NEW=1" />
+					<Add option="-DSDFILE_STORAGE=1" />
+					<Add option="-DVFS_FILE_POOL_NUM_CONFIG=1" />
+					<Add option="-DFS_VERSION=0x020001" />
+					<Add option="-DFATFS_VERSION=0x020101" />
+					<Add option="-DSDFILE_VERSION=0x020000" />
+					<Add option="-DVM_MAX_PAGE_ALIGN_SIZE_CONFIG=64*1024" />
+					<Add option="-DVM_MAX_SECTOR_ALIGN_SIZE_CONFIG=64*1024" />
+					<Add option="-DVM_ITEM_MAX_NUM=256" />
+					<Add option="-DCONFIG_TWS_ENABLE" />
+					<Add option="-DCONFIG_SOUNDBOX_CASE_ENABLE" />
+					<Add option="-DCONFIG_NEW_CFG_TOOL_ENABLE" />
+					<Add option="-DCONFIG_LITE_AEC_ENABLE=0" />
+					<Add option="-DAUDIO_REC_POOL_NUM=1" />
+					<Add option="-DAUDIO_DEC_POOL_NUM=3" />
+					<Add option="-DCONFIG_LMP_CONN_SUSPEND_ENABLE" />
+					<Add option="-DCONFIG_BTCTRLER_TASK_DEL_ENABLE" />
+					<Add option="-DCONFIG_LINK_DISTURB_SCAN_ENABLE=0" />
+					<Add option="-DCONFIG_UPDATA_ENABLE" />
+					<Add option="-DCONFIG_OTA_UPDATA_ENABLE" />
+					<Add option="-DCONFIG_EFFECT_CORE_V2_ENABLE" />
+					<Add option="-DCONFIG_ITEM_FORMAT_VM" />
+					<Add option="-D__LD__" />
+				</Compiler>
+				<Linker>
+					<Add option="-flto" />
+					<Add option="--plugin-opt=-pi32v2-always-use-itblock=false" />
+					<Add option="--plugin-opt=-enable-ipra=true" />
+					<Add option="--plugin-opt=-pi32v2-merge-max-offset=4096" />
+					<Add option="--plugin-opt=-pi32v2-enable-simd=true" />
+					<Add option="--plugin-opt=mcpu=r3" />
+					<Add option="--plugin-opt=-global-merge-on-const" />
+					<Add option="--plugin-opt=-inline-threshold=5" />
+					<Add option="--plugin-opt=-inline-max-allocated-size=32" />
+					<Add option="--plugin-opt=-inline-normal-into-special-section=true" />
+					<Add option="--plugin-opt=-dont-used-symbol-list=malloc,free,sprintf,printf,puts,putchar" />
+					<Add option="--plugin-opt=save-temps" />
+					<Add option="--plugin-opt=-pi32v2-enable-rep-memop" />
+					<Add option="--plugin-opt=-warn-stack-size=256" />
+					<Add option="--sort-common" />
+					<Add option="--plugin-opt=-used-symbol-file=cpu/br28/sdk_used_list.used" />
+					<Add option="--plugin-opt=-pi32v2-large-program=true" />
+					<Add option="--gc-sections" />
+					<Add option="--start-group" />
+					<Add option="cpu/br28/liba/cpu.a" />
+					<Add option="cpu/br28/liba/system.a" />
+					<Add option="cpu/br28/liba/btstack.a" />
+					<Add option="cpu/br28/liba/rcsp_stack.a" />
+					<Add option="cpu/br28/liba/tme_stack.a" />
+					<Add option="cpu/br28/liba/btctrler.a" />
+					<Add option="cpu/br28/liba/aec.a" />
+					<Add option="cpu/br28/liba/lib_dns.a" />
+					<Add option="cpu/br28/liba/libjlsp.a" />
+					<Add option="cpu/br28/liba/media.a" />
+					<Add option="cpu/br28/liba/libepmotion.a" />
+					<Add option="cpu/br28/liba/libAptFilt_pi32v2_OnChip.a" />
+					<Add option="cpu/br28/liba/libEchoSuppress_pi32v2_OnChip.a" />
+					<Add option="cpu/br28/liba/libNoiseSuppress_pi32v2_OnChip.a" />
+					<Add option="cpu/br28/liba/libSplittingFilter_pi32v2_OnChip.a" />
+					<Add option="cpu/br28/liba/libSMS_TDE_pi32v2_OnChip.a" />
+					<Add option="cpu/br28/liba/libDelayEstimate_pi32v2_OnChip.a" />
+					<Add option="cpu/br28/liba/libAdaptiveEchoSuppress_pi32v2_OnChip.a" />
+					<Add option="cpu/br28/liba/libOpcore_maskrom_pi32v2_OnChip.a" />
+					<Add option="cpu/br28/liba/lib_resample_cal.a" />
+					<Add option="cpu/br28/liba/lib_resample_fast_cal.a" />
+					<Add option="cpu/br28/liba/lib_esco_repair.a" />
+					<Add option="cpu/br28/liba/sbc_eng_lib.a" />
+					<Add option="cpu/br28/liba/mp3_dec_lib.a" />
+					<Add option="cpu/br28/liba/mp3tsy_dec_lib.a" />
+					<Add option="cpu/br28/liba/mp3_decstream_lib.a" />
+					<Add option="cpu/br28/liba/m4a_tws_lib.a" />
+					<Add option="cpu/br28/liba/wav_dec_lib.a" />
+					<Add option="cpu/br28/liba/wma_dec_lib.a" />
+					<Add option="cpu/br28/liba/flac_dec_lib.a" />
+					<Add option="cpu/br28/liba/ape_dec_lib.a" />
+					<Add option="cpu/br28/liba/dts_dec_lib.a" />
+					<Add option="cpu/br28/liba/amr_dec_lib.a" />
+					<Add option="cpu/br28/liba/agreement.a" />
+					<Add option="cpu/br28/liba/media_app.a" />
+					<Add option="cpu/br28/liba/jla_dec_lib.a" />
+					<Add option="cpu/br28/liba/opus_dec_lib.a" />
+					<Add option="cpu/br28/liba/SpectrumShow.a" />
+					<Add option="cpu/br28/liba/lib_midi_dec.a" />
+					<Add option="cpu/br28/liba/bt_hash_enc.a" />
+					<Add option="cpu/br28/liba/lib_word_ana.a" />
+					<Add option="cpu/br28/liba/drc.a" />
+					<Add option="cpu/br28/liba/DynamicEQ.a" />
+					<Add option="cpu/br28/liba/lib_voiceChager.a" />
+					<Add option="cpu/br28/liba/VirtualBass.a" />
+					<Add option="cpu/br28/liba/lib_sur_cal.a" />
+					<Add option="cpu/br28/liba/loudness.a" />
+					<Add option="cpu/br28/liba/howling.a" />
+					<Add option="cpu/br28/liba/noisegate.a" />
+					<Add option="cpu/br28/liba/lib_howlings_phf.a" />
+					<Add option="cpu/br28/liba/crossover_coff.a" />
+					<Add option="cpu/br28/liba/lib_reverb_cal.a" />
+					<Add option="cpu/br28/liba/lib_pitch_speed.a" />
+					<Add option="cpu/br28/liba/lfaudio_plc_lib.a" />
+					<Add option="cpu/br28/liba/libFFT_pi32v2_OnChip.a" />
+					<Add option="cpu/br28/liba/wtg_dec_lib.a" />
+					<Add option="cpu/br28/liba/bfilterfun_lib.a" />
+					<Add option="cpu/br28/liba/crypto_toolbox_Osize.a" />
+					<Add option="cpu/br28/liba/unisound/libaik.a" />
+					<Add option="cpu/br28/liba/unisound/libkws.a" />
+					<Add option="cpu/br28/liba/unisound/libssp.a" />
+					<Add option="cpu/br28/liba/unisound/libssp_1mic.a" />
+					<Add option="cpu/br28/liba/unisound/libssp_2mic_aec.a" />
+					<Add option="cpu/br28/liba/unisound/libssp_2mic_mlp_aec.a" />
+					<Add option="cpu/br28/liba/unisound/libual-osal.a" />
+					<Add option="cpu/br28/liba/unisound/libumd.a" />
+					<Add option="cpu/br28/liba/mp3_enc_lib.a" />
+					<Add option="cpu/br28/liba/lib_mp2_code.a" />
+					<Add option="cpu/br28/liba/lib_adpcm_code.a" />
+					<Add option="cpu/br28/liba/lib_adpcm_ima_code.a" />
+					<Add option="cpu/br28/liba/speex_enc_lib.a" />
+					<Add option="cpu/br28/liba/amr_enc_lib.a" />
+					<Add option="cpu/br28/liba/jla_codec_lib.a" />
+					<Add option="cpu/br28/liba/opus_enc_lib.a" />
+					<Add option="cpu/br28/liba/update.a" />
+					<Add option="cpu/br28/liba/ui_dot.a" />
+					<Add option="cpu/br28/liba/ui_cpu.a" />
+					<Add option="cpu/br28/liba/ui_draw.a" />
+					<Add option="cpu/br28/liba/font.a" />
+					<Add option="cpu/br28/liba/res.a" />
+					<Add option="cpu/br28/liba/libbt_lib.a" />
+					<Add option="--end-group" />
+					<Add option="-Tcpu/br28/sdk.ld" />
+					<Add option="-M=cpu/br28/tools/sdk.map" />
+					<Add library="C:/JL/pi32/pi32v2-lib/r3-large/libm.a" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="downloadbt_lib.bat" />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="../include_lib/app/adv_anc_voice.h" />
+		<Unit filename="../include_lib/app/adv_anc_voice_key.h" />
+		<Unit filename="../include_lib/app/adv_hearing_aid_setting.h" />
+		<Unit filename="../include_lib/app/adv_mic_setting.h" />
+		<Unit filename="../include_lib/app/adv_time_stamp_setting.h" />
+		<Unit filename="../include_lib/app/app_config.h" />
+		<Unit filename="../include_lib/app/audio_config.h" />
+		<Unit filename="../include_lib/app/ble_rcsp_adv.h" />
+		<Unit filename="../include_lib/app/ble_rcsp_module.h" />
+		<Unit filename="../include_lib/app/ble_rcsp_multi_common.h" />
+		<Unit filename="../include_lib/app/ble_rcsp_multi_trans.h" />
+		<Unit filename="../include_lib/app/board_config.h" />
+		<Unit filename="../include_lib/app/board_demo_cfg.h" />
+		<Unit filename="../include_lib/app/board_demo_global_build_cfg.h" />
+		<Unit filename="../include_lib/app/broadcast_audio_sync.h" />
+		<Unit filename="../include_lib/app/broadcast_codec.h" />
+		<Unit filename="../include_lib/app/bt.h" />
+		<Unit filename="../include_lib/app/bt_ble.h" />
+		<Unit filename="../include_lib/app/bt_emitter.h" />
+		<Unit filename="../include_lib/app/bt_profile_cfg.h" />
+		<Unit filename="../include_lib/app/bt_tws.h" />
+		<Unit filename="../include_lib/app/bt_vartual_fast_connect.h" />
+		<Unit filename="../include_lib/app/btcrypt.h" />
+		<Unit filename="../include_lib/app/cfg_tool.h" />
+		<Unit filename="../include_lib/app/dev_format.h" />
+		<Unit filename="../include_lib/app/file_bluk_trans_prepare.h" />
+		<Unit filename="../include_lib/app/file_delete.h" />
+		<Unit filename="../include_lib/app/file_env_prepare.h" />
+		<Unit filename="../include_lib/app/file_simple_transfer.h" />
+		<Unit filename="../include_lib/app/file_trans_back.h" />
+		<Unit filename="../include_lib/app/file_transfer.h" />
+		<Unit filename="../include_lib/app/gsensor.h" />
+		<Unit filename="../include_lib/app/le_audio_codec.h" />
+		<Unit filename="../include_lib/app/le_audio_stream.h" />
+		<Unit filename="../include_lib/app/le_client_demo.h" />
+		<Unit filename="../include_lib/app/le_common.h" />
+		<Unit filename="../include_lib/app/le_multi_common.h" />
+		<Unit filename="../include_lib/app/le_multi_trans.h" />
+		<Unit filename="../include_lib/app/le_trans_data.h" />
+		<Unit filename="../include_lib/app/macro_default.h" />
+		<Unit filename="../include_lib/app/nfc_data_opt.h" />
+		<Unit filename="../include_lib/app/rcsp.h" />
+		<Unit filename="../include_lib/app/rcsp_adv_bluetooth.h" />
+		<Unit filename="../include_lib/app/rcsp_browser.h" />
+		<Unit filename="../include_lib/app/rcsp_bt_func.h" />
+		<Unit filename="../include_lib/app/rcsp_bt_manage.h" />
+		<Unit filename="../include_lib/app/rcsp_cfg.h" />
+		<Unit filename="../include_lib/app/rcsp_cmd_user.h" />
+		<Unit filename="../include_lib/app/rcsp_command.h" />
+		<Unit filename="../include_lib/app/rcsp_config.h" />
+		<Unit filename="../include_lib/app/rcsp_define.h" />
+		<Unit filename="../include_lib/app/rcsp_event.h" />
+		<Unit filename="../include_lib/app/rcsp_extra_flash_cmd.h" />
+		<Unit filename="../include_lib/app/rcsp_extra_flash_opt.h" />
+		<Unit filename="../include_lib/app/rcsp_feature.h" />
+		<Unit filename="../include_lib/app/rcsp_fm_func.h" />
+		<Unit filename="../include_lib/app/rcsp_func_cmd_common.h" />
+		<Unit filename="../include_lib/app/rcsp_function.h" />
+		<Unit filename="../include_lib/app/rcsp_linein_func.h" />
+		<Unit filename="../include_lib/app/rcsp_manage.h" />
+		<Unit filename="../include_lib/app/rcsp_misc_setting.h" />
+		<Unit filename="../include_lib/app/rcsp_music_func.h" />
+		<Unit filename="../include_lib/app/rcsp_music_info_setting.h" />
+		<Unit filename="../include_lib/app/rcsp_rtc_func.h" />
+		<Unit filename="../include_lib/app/rcsp_setting_opt.h" />
+		<Unit filename="../include_lib/app/rcsp_setting_sync.h" />
+		<Unit filename="../include_lib/app/rcsp_switch_device.h" />
+		<Unit filename="../include_lib/app/rcsp_task.h" />
+		<Unit filename="../include_lib/app/rcsp_update.h" />
+		<Unit filename="../include_lib/app/rcsp_update_tws.h" />
+		<Unit filename="../include_lib/app/rcsp_user_msg.h" />
+		<Unit filename="../include_lib/app/sensor_log_notify.h" />
+		<Unit filename="../include_lib/app/sensors_data_opt.h" />
+		<Unit filename="../include_lib/app/sport_data_air_pressure.h" />
+		<Unit filename="../include_lib/app/sport_data_altitude.h" />
+		<Unit filename="../include_lib/app/sport_data_blood_oxygen.h" />
+		<Unit filename="../include_lib/app/sport_data_exercise_recovery_time.h" />
+		<Unit filename="../include_lib/app/sport_data_exercise_steps.h" />
+		<Unit filename="../include_lib/app/sport_data_func.h" />
+		<Unit filename="../include_lib/app/sport_data_heart_rate.h" />
+		<Unit filename="../include_lib/app/sport_data_max_oxygen_uptake.h" />
+		<Unit filename="../include_lib/app/sport_data_pressure_detection.h" />
+		<Unit filename="../include_lib/app/sport_data_sports_information.h" />
+		<Unit filename="../include_lib/app/sport_data_training_load.h" />
+		<Unit filename="../include_lib/app/sport_info_bt_disconn.h" />
+		<Unit filename="../include_lib/app/sport_info_continuous_heart_rate.h" />
+		<Unit filename="../include_lib/app/sport_info_exercise_heart_rate.h" />
+		<Unit filename="../include_lib/app/sport_info_fall_detection.h" />
+		<Unit filename="../include_lib/app/sport_info_opt.h" />
+		<Unit filename="../include_lib/app/sport_info_personal_info.h" />
+		<Unit filename="../include_lib/app/sport_info_pressure_detection.h" />
+		<Unit filename="../include_lib/app/sport_info_raise_wrist.h" />
+		<Unit filename="../include_lib/app/sport_info_sedentary.h" />
+		<Unit filename="../include_lib/app/sport_info_sensor_opt.h" />
+		<Unit filename="../include_lib/app/sport_info_sleep_detection.h" />
+		<Unit filename="../include_lib/app/sport_info_sync.h" />
+		<Unit filename="../include_lib/app/spp_online_db.h" />
+		<Unit filename="../include_lib/app/spp_trans_data.h" />
+		<Unit filename="../include_lib/app/tws_box_api.h" />
+		<Unit filename="../include_lib/app/user_cfg_id.h" />
+		<Unit filename="../include_lib/app/vol_sync.h" />
+		<Unit filename="bt/bt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bt/bt_ble.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bt/bt_emitter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bt/bt_event_fun.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bt/bt_key_fun.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bt/bt_product_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bt/bt_switch_fun.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bt/bt_tws.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bt/bt_tws_new.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bt/bt_vartual_fast_connect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bt/vol_sync.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="le_audio/broadcast_audio_sync.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="le_audio/le_audio_stream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="le_audio/le_audio_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="le_client_demo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_demo/le_multi_client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multi_demo/le_multi_common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="online_db/spp_online_db.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/bt_trans_data/ble_rcsp_multi_client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/bt_trans_data/ble_rcsp_multi_common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/cmd_recieve.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/cmd_recieve_no_respone.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/cmd_respone.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/data_recieve.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/data_recieve_no_respone.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/data_respone.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/browser/rcsp_browser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/device_info/func_cmd/rcsp_bt_func.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/device_info/func_cmd/rcsp_fm_func.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/device_info/func_cmd/rcsp_linein_func.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/device_info/func_cmd/rcsp_music_func.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/device_info/func_cmd/rcsp_rtc_func.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/device_info/rcsp_feature.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/device_info/rcsp_function.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/external_flash/rcsp_extra_flash_cmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/external_flash/rcsp_extra_flash_opt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/file_transfer/dev_format.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/file_transfer/file_bluk_trans_prepare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/file_transfer/file_delete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/file_transfer/file_env_prepare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/file_transfer/file_simple_transfer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/file_transfer/file_trans_back.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/file_transfer/file_transfer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_adv_bluetooth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/adv_anc_voice.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/adv_anc_voice_key.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/adv_bt_name_setting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/adv_hearing_aid_setting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/adv_key_setting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/adv_led_setting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/adv_mic_setting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/adv_time_stamp_setting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/adv_work_setting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/rcsp_color_led_setting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/rcsp_eq_setting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/rcsp_high_low_vol_setting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/rcsp_karaoke_eq_setting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/rcsp_karaoke_setting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/rcsp_misc_setting/rcsp_misc_drc_setting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/rcsp_misc_setting/rcsp_misc_reverbration_setting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/rcsp_misc_setting/rcsp_misc_setting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/rcsp_music_info_setting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting/rcsp_vol_setting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting_opt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_setting_opt/rcsp_setting_sync.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_switch_device.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_update/rcsp_ch_loader_download.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_update/rcsp_update.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/rcsp_update/rcsp_update_tws.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/nfc_data_opt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sensor_log_notify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sensors_data_opt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sport_data_func.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sport_data_info_opt/sport_info_bt_disconn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sport_data_info_opt/sport_info_continuous_heart_rate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sport_data_info_opt/sport_info_exercise_heart_rate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sport_data_info_opt/sport_info_fall_detection.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sport_data_info_opt/sport_info_personal_info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sport_data_info_opt/sport_info_pressure_detection.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sport_data_info_opt/sport_info_raise_wrist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sport_data_info_opt/sport_info_sedentary.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sport_data_info_opt/sport_info_sensor_opt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sport_data_info_opt/sport_info_sleep_detection.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sport_info_opt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sport_info_sync.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sport_info_vm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sports_data_opt/sport_data_air_pressure.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sports_data_opt/sport_data_altitude.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sports_data_opt/sport_data_blood_oxygen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sports_data_opt/sport_data_exercise_recovery_time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sports_data_opt/sport_data_exercise_steps.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sports_data_opt/sport_data_heart_rate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sports_data_opt/sport_data_max_oxygen_uptake.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sports_data_opt/sport_data_pressure_detection.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sports_data_opt/sport_data_sports_information.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/function_modules/sensors_data_opt/sports_data_opt/sport_data_training_load.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/rcsp_cmd_user.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/cmd_data_deal/rcsp_command.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/rcsp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/rcsp_functions/rcsp_bt_manage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/rcsp_functions/rcsp_config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/rcsp_functions/rcsp_event.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/rcsp_functions/rcsp_manage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsp/rcsp_functions/rcsp_task.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="trans_data_demo/spp_trans_data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
